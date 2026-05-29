@@ -1,0 +1,73 @@
+import pandas as pd
+
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
+
+df_csv = pd.read_csv("OriginalDataSets\buzzfeed-v02 - Copy.txt")
+df_csv = df_csv.rename(columns={
+    df_csv.columns[0]: "URL",
+    df_csv.columns[1]: "Title",
+    df_csv.columns[2]: "ArticleText"
+})
+
+txt_path = "data/buzzfeed-v02 - Copy.txt"
+
+rows = []
+with open(txt_path, "r", encoding="utf-8") as f:
+    for line in f:
+        parts = line.strip().split("\t")
+        if len(parts) < 4:
+            continue
+        
+        random_id = parts[0]
+        url = parts[1]
+
+        title = " ".join(article_text.split()[:10])
+
+        article_text = parts[3].strip('"')   # Remove surrounding quotes
+
+        
+        rows.append({
+            "URL": url,
+            "Title": title,
+            "ArticleText": article_text
+        })
+
+df_txt = pd.DataFrame(rows)
+
+
+df_all = pd.concat([df_csv, df_txt], ignore_index=True)
+
+print(df_all.head())
+
+
+
+
+# LDA Topic Modeling
+vectorizer = CountVectorizer(
+    stop_words="english",
+    max_df=0.95,
+    min_df=2
+)
+X = vectorizer.fit_transform(df_all["ArticleText"])
+
+lda = LatentDirichletAllocation(
+    n_components=6,   # recommended setting
+    random_state=42
+)
+topic_matrix = lda.fit_transform(X)
+
+df_all["DominantTopic"] = topic_matrix.argmax(axis=1)
+
+# Labels from litterature TODO
+topic_labels = {
+    0: "Topic 0",
+    1: "Topic 1",
+    2: "Topic 2",
+    3: "Topic 3",
+    4: "Topic 4",
+    5: "Topic 5"
+}
+df_all["TopicLabel"] = df_all["DominantTopic"].map(topic_labels)
+
+df_all.to_csv("data/all_articles_with_topics.csv", index=False)
