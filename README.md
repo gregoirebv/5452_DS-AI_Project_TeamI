@@ -40,4 +40,11 @@ Implémentation -> comment intégrer les tags dans le dataset ?
 Generalization for other topics and other contextual flags - 26.6.2026.
 
 ---
+Required installations //assuming python 3.14 and pip
 
+- BERTopic
+    pip install bertopic
+- sentence-transformer
+    pip install sentence-transformers
+- Pandas & others
+    pip install pandas numpy scikit-learn seaborn matplotlib 
