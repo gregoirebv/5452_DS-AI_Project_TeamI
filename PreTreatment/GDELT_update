@@ -1,0 +1,93 @@
+import requests
+import pandas as pd
+import os
+
+import urllib.parse
+import time
+
+#Query GDELT for multiple keywords and append results to a CSV table.
+def update_gdelt_keyword_table(keywords, output_file="gdelt_keyword_trends.csv"):
+   
+    def gdelt_keyword_frequency(keyword, retries=3):
+        encoded_keyword = urllib.parse.quote(keyword)
+
+        url = (
+            "https://api.gdeltproject.org/api/v2/doc/doc"
+            f"?query={encoded_keyword}&mode=TimelineVol&format=json"
+        )
+
+        for attempt in range(retries):
+            try:
+                req = requests.get(url, timeout=10)
+
+                if req.status_code != 200 or not req.text.strip().startswith("{"):
+                    raise ValueError("Invalid response")
+
+                data = req.json()
+
+                if "timeline" not in data or len(data["timeline"]) == 0:
+                    raise ValueError("No timeline in response.")
+
+                df = pd.DataFrame(data["timeline"])
+                df["keyword"] = keyword
+                return df
+
+            except Exception as e:
+                print(f"Failed for '{keyword}' (attempt {attempt+1}): {e}")
+                time.sleep(1)
+
+        print(f"Skipping keyword '{keyword}'.")
+        return pd.DataFrame()  # empty
+
+    frames = []
+    for k in keywords:
+        df_kw = gdelt_keyword_frequency(k)
+        if not df_kw.empty:
+            frames.append(df_kw)
+        else:
+            print(f"No data for keyword: {k}")
+
+    if not frames:
+        print("No new data. Nothing to update.")
+        return None
+
+    df_all = pd.concat(frames, ignore_index=True)
+
+    if "date" not in df_all.columns:
+        print("No 'date' column found in any GDELT response.")
+        return None
+
+    df_all["date"] = pd.to_datetime(df_all["date"], errors="coerce")
+    df_all = df_all.dropna(subset=["date"])
+
+    #Aggregate month
+    df_monthly = (
+        df_all
+        .groupby([pd.Grouper(key="date", freq="M"), "keyword"])["value"]
+        .sum()
+        .reset_index()
+        .rename(columns={"value": "monthly_count"})
+    )
+
+    if os.path.exists(output_file):
+        df_existing = pd.read_csv(output_file)
+        df_existing["date"] = pd.to_datetime(df_existing["date"])
+        df_final = pd.concat([df_existing, df_monthly])
+        df_final = df_final.drop_duplicates(subset=["date", "keyword"])
+    else:
+        df_final = df_monthly
+
+    df_final.to_csv(output_file, index=False)
+
+    print(f"Updated table saved to {output_file}")
+    return df_final
+
+keywords = [
+    "electric",
+    "carbon",
+    "nuclear",
+    "EV",
+]
+
+df = update_gdelt_keyword_table(keywords)
+print(f"Done!")

@@ -21,8 +21,9 @@ IDD-Resources (2025) on GitHub: https://github.com/mangrue/IDD-Resources
 FakeNewsCorpus (2020) on GitHub: https://github.com/several27/FakeNewsCorpus
 
 Which tools/algorithms/models/metrics do you plan to employ?
-Latent Dirichlet Allocation (LDA)
-BERTopic: https://maartengr.github.io/BERTopic/index.html
+- Latent Dirichlet Allocation (LDA)
+    Replaced by CorEx (supervised topic modeling)?
+- BERTopic: https://maartengr.github.io/BERTopic/index.html
 
 ---
 
@@ -48,3 +49,5 @@ Required installations //assuming python 3.14 and pip
     pip install sentence-transformers
 - Pandas & others
     pip install pandas numpy scikit-learn seaborn matplotlib 
+- Requests
+    pip install requests
