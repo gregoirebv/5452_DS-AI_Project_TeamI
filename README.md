@@ -29,12 +29,11 @@ Which tools/algorithms/models/metrics do you plan to employ?
 
 Workplan/Milestones:
 Curate a sub-dataset with environment articles - 29.5.2026.
-Sub-dataset des 3 datasets – clean-up >JM 
+Sub-dataset from 3 datasets – clean-up >JM 
 Use LDA, BERTopic to map subjects of contention – 5.6.2026
-Trouver les sujets de contentieux >BG
-Appliquer les modèles pour trouver les % de sujets contentieux dans nos datasets >JM
+Literature on contentious subjects >BG
 Compare to wider statistics to identify bias/blind-spots - 5.6.2026.
-Implement the model and map the topic density discrepancies on fact-checkers and general media - 12.6.2026.
+Implement the model and map the topic density discrepancies on fact-checkers VS general media - 12.6.2026.
 Trouver les pourcentages de sujets environnementaux dans les données réelles  google Analytics / source de presse spécialisée >BG
 Create Tags and add them to the dataset - 19.6.2026
 Implémentation -> comment intégrer les tags dans le dataset ?
