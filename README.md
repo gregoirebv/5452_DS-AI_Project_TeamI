@@ -44,6 +44,8 @@ Required installations //assuming python 3.14 and pip
 
 - BERTopic
     pip install bertopic
+- Torch
+    pip install torch    
 - sentence-transformer
     pip install sentence-transformers
 - Pandas & others
