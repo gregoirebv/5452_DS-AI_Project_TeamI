@@ -1,0 +1,104 @@
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+
+from sentence_transformers import SentenceTransformer
+from bertopic import BERTopic
+
+# HuggingFace token for BERTopic
+os.environ["HF_TOKEN"] = "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"
+
+# Seed topics for BERTopic
+topics = {
+    "Energy": [
+        "nuclear", "waste", "reactor", "energy", "coal", "gasoline", "carbon", "ccs", "renewable",
+        "grid", "hydrogen", "offshore wind", "onshore wind", "solar", "fossil fuel",
+        "geothermal", "biofuel", "biomass", "green"
+    ],
+
+    "Transportation": [
+        "electric vehicle", "evs", "electric car",
+        "hybrid vehicle", "hydrogen vehicle", "ev battery",
+        "charging infrastructure", "public transit",
+        "rail", "aviation fuel", "emissions",
+        "e-fuel", "urban", "congestion",
+        "bicycle", "mobility"
+    ],
+
+    "Agriculture & Food": [
+        "organic", "agriculture",
+        "genetically modified crops", "gmos",
+        "fertilizers", "pesticide", "livestock",
+        "farming", "grass-fed beef",
+        "plant-based meat", "synthetic", "lab-grown meat",
+        "food miles", "local food", "vertical farming",
+        "agroforestry"
+    ],
+
+    "Climate Policy": [
+        "carbon tax", "cap-and-trade", "net zero",
+        "climate adaptation", "climate mitigation", "carbon offsets",
+        "emissions reporting", "green subsidies", "fossil fuel", "climate litigation",
+        "climate justice",
+        "industrial policy", "green"
+    ],
+
+    "Conservation & Land Use": [
+        "rewilding", "protected areas", "national park",
+        "biodiversity", "wildlife", "hunting",
+        "invasive specie", "forest management",
+        "controlled burns", "logging", "afforestation",
+        "reforestation", "urban sprawl", "conservation"
+    ],
+
+    "Water": [
+        "desalination", "water privatization", "dam",
+        "hydropower", "groundwater",
+        "water recycling", "river restoration", "water use",
+        "drought", "inter-basin water transfer"
+    ],
+
+    "Waste & Circular Economy": [
+        "plastic wrap", "single-use", "chemical recycling",
+        "waste-to-energy",
+        "producer responsibility", "fast fashion",
+        "right to repair", "e-waste", "circular economy"
+    ],
+}
+
+seed_topic_list = list(topics.values())
+seed_topic_names = list(topics.keys())
+
+# Recommended embedding model
+embedding_model = SentenceTransformer("all-mpnet-base-v2")
+
+topic_model = BERTopic(
+    embedding_model=embedding_model,
+    seed_topic_list=seed_topic_list,
+    nr_topics=None,
+    verbose=True
+)
+
+df_csv = pd.read_csv("PreTreatment\\01truncated-buzzfeed-v02 .csv")
+docs = df_csv["ArticleText"].astype(str).tolist()
+topics_assigned, probs = topic_model.fit_transform(docs)
+
+
+df_csv["Topic"] = topics_assigned
+
+df_csv["Probability"] = [p.max() for p in probs]
+
+# Visualize topic probabilities
+probs_matrix = np.vstack(probs)
+
+plt.figure(figsize=(14, 8))
+sns.heatmap(probs_matrix, cmap="viridis")
+plt.xlabel("Topic")
+plt.ylabel("Article")
+plt.title("Topic Probability Heatmap Across Articles")
+plt.show()
+
+print("Done!")

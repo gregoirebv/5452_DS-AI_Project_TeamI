@@ -21,23 +21,34 @@ IDD-Resources (2025) on GitHub: https://github.com/mangrue/IDD-Resources
 FakeNewsCorpus (2020) on GitHub: https://github.com/several27/FakeNewsCorpus
 
 Which tools/algorithms/models/metrics do you plan to employ?
-Latent Dirichlet Allocation (LDA)
-BERTopic: https://maartengr.github.io/BERTopic/index.html
+- Latent Dirichlet Allocation (LDA)
+    Replaced by CorEx (supervised topic modeling)?
+- BERTopic: https://maartengr.github.io/BERTopic/index.html
 
 ---
 
 Workplan/Milestones:
 Curate a sub-dataset with environment articles - 29.5.2026.
-Sub-dataset des 3 datasets – clean-up >JM 
+Sub-dataset from 3 datasets – clean-up >JM 
 Use LDA, BERTopic to map subjects of contention – 5.6.2026
-Trouver les sujets de contentieux >BG
-Appliquer les modèles pour trouver les % de sujets contentieux dans nos datasets >JM
+Literature on contentious subjects >BG
 Compare to wider statistics to identify bias/blind-spots - 5.6.2026.
-Implement the model and map the topic density discrepancies on fact-checkers and general media - 12.6.2026.
+Implement the model and map the topic density discrepancies on fact-checkers VS general media - 12.6.2026.
 Trouver les pourcentages de sujets environnementaux dans les données réelles  google Analytics / source de presse spécialisée >BG
 Create Tags and add them to the dataset - 19.6.2026
 Implémentation -> comment intégrer les tags dans le dataset ?
 Generalization for other topics and other contextual flags - 26.6.2026.
 
 ---
+Required installations //assuming python 3.14 and pip
 
+- BERTopic
+    pip install bertopic
+- Torch
+    pip install torch    
+- sentence-transformer
+    pip install sentence-transformers
+- Pandas & others
+    pip install pandas numpy scikit-learn seaborn matplotlib 
+- Requests
+    pip install requests

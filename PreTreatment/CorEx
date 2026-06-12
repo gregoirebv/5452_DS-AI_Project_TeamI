@@ -1,0 +1,119 @@
+
+import pandas as pd
+from sklearn.feature_extraction.text import CountVectorizer
+from corextopic import corextopic as ct
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Seed topics for CorEx
+topics = {
+    "Energy": [
+        "nuclear", "waste", "reactor", "energy", "coal", "gasoline", "carbon", "ccs", "renewable",
+        "grid", "hydrogen", "offshore wind", "onshore wind", "solar", "fossil fuel",
+        "geothermal", "biofuel", "biomass", "green"
+    ],
+
+    "Transportation": [
+        "electric vehicle", "evs", "electric car",
+        "hybrid vehicle", "hydrogen vehicle", "ev battery",
+        "charging infrastructure", "public transit",
+        "rail", "aviation fuel", "emissions",
+        "e-fuel", "urban", "congestion",
+        "bicycle", "mobility"
+    ],
+
+    "Agriculture & Food": [
+        "organic", "agriculture",
+        "genetically modified crops", "gmos",
+        "fertilizers", "pesticide", "livestock",
+        "farming", "grass-fed beef",
+        "plant-based meat", "synthetic", "lab-grown meat",
+        "food miles", "local food", "vertical farming",
+        "agroforestry"
+    ],
+
+    "Climate Policy": [
+        "carbon tax", "cap-and-trade", "net zero",
+        "climate adaptation", "climate mitigation", "carbon offsets",
+        "emissions reporting", "green subsidies", "fossil fuel", "climate litigation",
+        "climate justice",
+        "industrial policy", "green"
+    ],
+
+    "Conservation & Land Use": [
+        "rewilding", "protected areas", "national park",
+        "biodiversity", "wildlife", "hunting",
+        "invasive specie", "forest management",
+        "controlled burns", "logging", "afforestation",
+        "reforestation", "urban sprawl", "conservation"
+    ],
+
+    "Water": [
+        "desalination", "water privatization", "dam",
+        "hydropower", "groundwater",
+        "water recycling", "river restoration", "water use",
+        "drought", "inter-basin water transfer"
+    ],
+
+    "Waste & Circular Economy": [
+        "plastic wrap", "single-use", "chemical recycling",
+        "waste-to-energy",
+        "producer responsibility", "fast fashion",
+        "right to repair", "e-waste", "circular economy"
+    ],
+}
+
+
+df = pd.read_csv("PreTreatment\\clean-buzzfeed-v02.csv")
+articles = df["ArticleText"].astype(str).tolist()
+
+vectorizer = CountVectorizer(
+    stop_words="english",
+    max_features=20000,   # adjust if needed
+    min_df=3              # ignore very rare words
+)
+X = vectorizer.fit_transform(articles)
+words = vectorizer.get_feature_names_out()
+
+anchor_words = list(topics.values())
+topic_names  = list(topics.keys())
+n_topics     = len(anchor_words)
+
+anchor_words = [[w.lower() for w in lst] for lst in anchor_words] # ensure lowercase for matches
+
+model = ct.Corex(
+    n_hidden=n_topics,
+    words=words,
+    seed=42
+)
+
+model.fit(
+    X,
+    words=words,
+    anchors=anchor_words,
+    anchor_strength=3
+)
+
+for i, name in enumerate(topic_names):
+    topic_words = model.get_topics(topic=i, n_words=15)
+    print(f"\n=== Topic {i}: {topic_names[i]} ===")
+    for word, score, _ in topic_words:   
+        print(f"{word:20s} {score:.3f}") # ignoring the 3rd value
+
+# Visualization of topic probabilities
+labels = model.labels          #0/1
+probs  = model.p_y_given_x      #probabilities
+
+for i, name in enumerate(topic_names):
+    df[f"CorEx_{name}_label"] = labels[:, i]
+    df[f"CorEx_{name}_prob"]  = probs[:, i]
+
+
+plt.figure(figsize=(14, 8))
+sns.heatmap(probs, cmap="viridis", xticklabels=topic_names)
+plt.xlabel("Topic")
+plt.ylabel("Article")
+plt.title("Anchored CorEx Topic Probabilities")
+plt.show()
+
+print("Done!")
