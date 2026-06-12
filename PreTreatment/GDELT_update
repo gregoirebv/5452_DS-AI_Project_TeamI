@@ -4,9 +4,9 @@ import pandas as pd
 import urllib.parse
 import time
 
-#Query GDELT for multiple keywords and append results (keyword | count)
+#Query GDELT for multiple keywords and append results (keyword, count)
 
-def gdelt_keyword_counts(keywords, retries=3, delay=1):
+def gdelt_keyword_counts(keywords, retries=2, delay=1):
    
     results = []
 
@@ -52,10 +52,10 @@ def gdelt_keyword_counts(keywords, retries=3, delay=1):
 
 
 keywords = [
-    "electric",
+    "energy",
     "gas",
     "nuclear",
-    "EV"
+    "water"
 ]
 
 df = gdelt_keyword_counts(keywords)
