@@ -56,610 +56,623 @@ topics = {
     ],
 
     "Sustainable aviation and maritime fuels": [
-        "sustainable aviation fuels", "e-kerosene", "bio-LNG", "maritime ammonia fuel",
-        "hydrogen propulsion", "synthetic methanol", "fuel carbon intensity", "ICAO-CORSIA",
-        "IMO GHG Strategy", "Clean Skies for Tomorrow", "Getting to Zero Coalition", "ReFuelEU Aviation",
-        "food crop competition", "indirect land-use change", "refueling infrastructure", "biomass availability",
-        "saf greenwashing"
-    ],
-
-    "Public transit systems and modal shift": [
-        "public transit systems", "modal shift", "urban rail networks", "bus rapid transit",
-        "active mobility infrastructure", "intermodal transport", "shared mobility", "UITP",
-        "C40 Cities", "ITF", "Eltis", "SDG Target 11.2",
-        "funding deficits", "car dependency", "urban sprawl", "last-mile connectivity",
-        "transit exclusion"
-    ],
-
-    "Logistics and freight optimization": [
-        "freight electrification", "rail freight optimization", "last-mile delivery efficiency", "modal integration",
-        "eco-driving technologies", "automated platooning", "logistics hub energy efficiency", "Smart Freight Centre",
-        "ALICE", "IEA Freight", "EU Sustainable and Smart Mobility",
-        "fragmented supply chains", "empty runs", "delivery time pressures", "urban access restrictions",
-        "freight cost margins"
-    ],
-
-    "Renewable energy integration and grid infrastructure": [
-        "renewable energy integration", "smart grid infrastructure", "high-voltage direct current", "grid-scale storage",
-        "demand-side response", "distributed energy resources", "interconnection capacity", "ENTSO-E",
-        "IEA Grid", "IRENA Innovation", "Global Smart Grid Federation", "Clean Energy Ministerial",
-        "curtailment rates", "grid congestion", "infrastructure costs", "cybersecurity risks",
-        "permitting delays"
-    ],
-
-    "Nuclear energy deployment and safety": [
-        "nuclear energy generation", "small modular reactors", "advanced nuclear technology", "nuclear waste management",
-        "reactor decommissioning", "nuclear safety systems", "proliferation resistance", "IAEA",
-        "World Nuclear Association", "OECD-NEA", "Euratom Treaty",
-        "high capital costs", "radioactive waste disposal", "meltdown risk", "construction delays",
-        "public opposition"
-    ],
-
-    "Fossil fuel phase-out and just transition": [
-        "fossil fuel phase-out", "coal retirement mechanisms", "methane abatement from energy", "just transition funding",
-        "subsidy reform", "repurposing oil infrastructure", "stranded fossil assets", "Powering Past Coal Alliance",
-        "Just Transition Mechanism", "IEA Net Zero", "Extractive Industries Transparency Initiative", "Fossil Fuel Non-Proliferation Treaty",
-        "economic dislocation", "energy security concerns", "lobbying pressure", "carbon lock-in",
-        "re-skilling barriers"
-    ],
-
-    "Energy efficiency in buildings and appliances": [
-        "building energy performance", "deep energy retrofits", "heat pump deployment", "smart building management",
-        "energy-efficient appliances", "thermal insulation materials", "net-zero energy buildings", "WorldGBC",
-        "IEA Buildings", "Energy Performance of Buildings Directive", "Global Alliance for Buildings and Construction",
-        "split incentives", "high upfront retrofitting costs", "supply chain bottlenecks", "historic building constraints",
-        "renovation rates"
-    ],
-
-    "Sustainable building materials and low-carbon design": [
-        "low-carbon cement", "green steel structural design", "timber construction", "recycled aggregates",
-        "life-cycle carbon assessment", "modular building components", "material circularity in construction", "Architecture 2030",
-        "Cradle to Cradle Certified", "LEED certification", "BREEAM", "EU Level(s)",
-        "embodied carbon metrics", "structural code barriers", "material cost premiums", "durability concerns",
-        "demolition waste"
-    ],
-
-    "Urban density, green spaces, and resilient design": [
-        "urban density optimization", "urban green infrastructure", "nature-based urban solutions", "heat island mitigation",
-        "sustainable urban drainage", "walkable city design", "climate-resilient urban masterplans", "UN-Habitat",
-        "ICLEI", "100 Resilient Cities", "New Urban Agenda", "SDG 11",
-        "gentrification risks", "real estate speculation", "land-use conflicts", "maintenance funding",
-        "urban sprawl pressures"
-    ],
-
-    "Sustainable agricultural practices and soil carbon management": [
-        "regenerative agriculture", "conservation tillage", "cover cropping", "agroforestry systems",
-        "soil carbon sequestration", "precision nutrient management", "organic farming standards", "FAO-GSP",
-        "4per1000 initiative", "IFOAM", "EIT Food", "Common Agricultural Policy",
-        "yield variability", "transition costs", "measurement uncertainty", "subsidy misalignment",
-        "carbon credit permanence"
-    ],
-
-    "Methane mitigation and livestock management": [
-        "enteric fermentation reduction", "manure management systems", "methane-inhibiting feed additives", "livestock herd management",
-        "anaerobic digesters", "alternative protein sources", "dietary shifts", "Global Methane Pledge",
-        "Climate and Clean Air Coalition", "FAO Livestock Environmental Assessment", "Methane Hub",
-        "cultural diet resistance", "additive cost barriers", "smallholder economic constraints", "leakage to unmanaged sectors",
-        "methane measurement difficulty"
-    ],
-
-    "Deforestation prevention and sustainable forestry": [
-        "deforestation-free supply chains", "sustainable forest management", "reforestation initiatives", "afforestation programs",
-        "forest degradation monitoring", "agro-silvopastoral systems", "certified timber production", "UN-REDD",
-        "FSC", "PEFC", "New York Declaration on Forests", "EU Deforestation Regulation",
-        "illegal logging", "land tenure insecurity", " leakage risks", "monoculture plantation impacts",
-        "traceability costs"
-    ],
-
-    "Water resource management and climate adaptation": [
-        "integrated water resources management", "efficient irrigation technologies", "wastewater reuse", "groundwater recharge",
-        "water footprint reduction", "drought-resilient crop varieties", "watershed restoration", "Global Water Partnership",
-        "UN-Water", "World Water Council", "Alliance for Water Stewardship", "SDG 6",
-        "water scarcity conflicts", "transboundary water disputes", "infrastructure financing gaps", "subsidy-driven overuse",
-        "climate-induced hydrological shifts"
+        "sustainable aviation fuels", "maritime decarbonization", "green ammonia", "synthetic kerosene",
+        "low-emission hydrogen", "alternative energy carriers", "e-fuels", "CORSIA",
+        "International Maritime Organization", "ICAO", "Clean Skies for Tomorrow", "Getting to Zero Coalition",
+        "hard-to-abate residual emissions", "high operational cost", "feedstock availability", "technological maturity",
+        "fuel-vs-food trade-off"
+    ],
+
+    "Public transit and active mobility systems": [
+        "active mobility", "public transport expansion", "bus rapid transit", "cycling infrastructure",
+        "walkable cities", "transit-oriented development", "shared mobility", "SDG 11.2",
+        "C40 Cities", "International Association of Public Transport", "Walk21", "Institute for Transportation and Development Policy",
+        "car-free zones", "infrastructure investment gap", "transit equity", "urban accessibility",
+        "modal shift barriers"
+    ],
+
+    "Transport infrastructure and habitat fragmentation": [
+        "habitat fragmentation", "linear infrastructure", "wildlife corridors", "ecosystem connectivity",
+        "paved road length", "barrier effects", "infrastructure expansion", "Convention on Migratory Species",
+        "IUCN", "Global Road Map", "Infrastructures and Ecology Network Europe", "Trans-European Transport Network",
+        "land grabbing", "population displacement", "environmental social costs", "unprecedented expansion",
+        "illegal logging access"
+    ],
+
+    "Freight modal shift and logistics optimization": [
+        "modal shift", "freight electrification", "rail logistics", "intermodal transport",
+        "supply chain efficiency", "heavy-duty trucks", "logistics optimization", "Shift2Rail",
+        "Eurostat Freight", "European Rail Freight Association", "International Transport Forum", "World Road Association",
+        "infrastructure bottlenecks", "cross-border interoperability", "last-mile delivery", "speed-of-delivery trade-offs",
+        "regulatory barriers"
+    ],
+
+    "Tourism-related transportation and carbon footprint": [
+        "tourism carbon footprint", "travel-related emissions", "long-distance transportation", "seaborne travel pollution",
+        "airborne travel emissions", "ecotourism scale", "UNWTO", "Sustainable Tourism Global Council",
+        "SDG 8.9", "SDG 12.b", "Global Sustainable Tourism Council", "flight shaming",
+        "overtourism", "invasive alien species pathway", "carbon leakage", "tourism dependency"
     ],
-
-    "Circular economy and solid waste management": [
-        "extended producer responsibility", "zero waste strategies", "advanced sorting technologies", "mechanical recycling",
-        "chemical recycling", "organic waste composting", "landfill gas capture", "Global Plastics Treaty",
-        "ISWA", "Circular Economy Coalition", "UNEA resolutions", "SDG 12",
-        "recycling contamination", "chemical recycling toxicity", "plastic production growth", "informal waste picker exclusion",
-        "export of waste"
-    ],
-
-    "Clean water access and wastewater infrastructure": [
-        "universal clean water access", "advanced wastewater treatment", "fecal sludge management", "decentralized sanitation systems",
-        "water purification technologies", "sewerage network energy efficiency", "water loss reduction", "Water.org",
-        "SWA", "IWA", "WHO/UNICEF JMP", "SDG 6.1 and 6.2",
-        "infrastructure financing gaps", "affordability for vulnerable populations", "rural service sustainability", "industrial effluent contamination",
-        "energy-intensive treatment"
-    ],
-
-    "Industrial water efficiency and pollution control": [
-        "closed-loop industrial water systems", "zero liquid discharge", "industrial water recycling", "polluter pays enforcement",
-        "heavy metal removal", "toxic effluent monitoring", "water-efficient industrial equipment", "UNIDO Water Management",
-        "European Water Association", "EPA Effluent Guidelines", "Industrial Emissions Directive",
-        "high compliance costs", "regulatory enforcement gaps", "legacy contamination sites", "technological capability constraints",
-        "water quality data transparency"
-    ],
-
-    "Water-related disaster risk reduction": [
-        "flood risk management", "early warning systems", "nature-based flood defense", "coastal storm surge protection",
-        "disaster resilient water infrastructure", "drought management frameworks", "community-based disaster preparedness", "UNDRR",
-        "Sendai Framework", "CREWS initiative", "Global Alliance for Disaster Risk Reduction", "SDG Target 11.5",
-        "funding shortfalls", "inadequate meteorological data", "rapid urban coastal development", "maintenance backlogs",
-        "transboundary early warning gaps"
-    ],
-
-    "Ocean and marine ecosystem protection": [
-        "marine protected areas", "sustainable fisheries management", "bycatch reduction technologies", "marine litter prevention",
-        "ocean acidification monitoring", "coral reef restoration", "mariculture sustainability", "UN Ocean Conference",
-        "Ospat Commission", "Ocean Conservancy", "High Seas Treaty", "SDG 14",
-        "illegal fishing (IUU)", "high seas enforcement gaps", "coastal run-off pollution", "climate-driven marine migration",
-        "subsidies driving overfishing"
-    ],
-
-    "Terrestrial biodiversity and habitat conservation": [
-        "terrestrial protected areas", "ecological corridor restoration", "habitat fragmentation prevention", "endangered species recovery",
-        "invasive alien species control", "ecosystem services valuation", "indigenous-led conservation", "Kunming-Montreal Global Biodiversity Framework",
-        "IUCN", "WWF", "Convention on Biological Diversity", "SDG 15",
-        "land-use competition", "poaching pressures", "underfunded management", "conflicting agricultural subsidies",
-        "climate-induced habitat shifts"
-    ],
-
-    "Soil biodiversity and agricultural degradation control": [
-        "soil biota conservation", "microbial activity enhancement", "erosion control measures", "salinization prevention",
-        "soil organic matter restoration", "sustainable pesticide reduction", "soil health monitoring", "Global Soil Biodiversity Initiative",
-        "FAO Voluntary Guidelines for Sustainable Soil Management", "European Soil Data Centre", "EU Soil Strategy", "SDG Target 15.3",
-        "chemical dependency lock-in", "short-term yield optimization", "soil degradation externalized costs", "lack of farmer incentives",
-        "measurement standardization"
-    ],
-
-    "Freshwater ecosystem conservation": [
-        "wetland restoration", "river connectivity preservation", "lake eutrophication control", "riparian zone management",
-        "environmental flow tracking", "freshwater species protection", "peatland rewetting", "Ramsar Convention",
-        "International Rivers", "Freshwater Action Network", "EU Water Framework Directive", "SDG Target 6.6",
-        "dam construction impacts", "agricultural nutrient runoff", "urban encroachment", "invasive species dominance",
-        "jurisdictional fragmentation"
-    ],
-
-    "Air quality management and urban pollution control": [
-        "urban air quality monitoring", "low emission zones", "industrial particulate filtering", "smog reduction strategies",
-        "clean household energy access", "ambient air standards enforcement", "non-road mobile machinery regulation", "WHO Air Quality Guidelines",
-        "Climate and Clean Air Coalition", "Clean Air Task Force", "Euro standards", "SDG Target 3.9 and 11.6",
-        "fossil fuel dependency", "transboundary air pollution", "monitoring network gaps", "automotive industry lobbying",
-        "public health cost externalization"
-    ],
-
-    "Chemical safety and hazardous waste regulation": [
-        "hazardous chemical substitution", "sound chemical management", "persistent organic pollutants elimination", "heavy metal exposure reduction",
-        "chemical leasing models", "toxic waste disposal standards", "e-waste recycling safety", "Basel Convention",
-        "Stockholm Convention", "Rotterdam Convention", "Strategic Approach to International Chemicals Management", "REACH",
-        "illegal toxic waste dumping", "legacy chemical contamination", "data confidentiality barriers", "regulatory enforcement gaps",
-        "informal recycling hazards"
+
+    "Deep energy retrofitting and thermal performance": [
+        "building retrofitting", "thermal insulation", "HVAC optimization", "energy performance certificates",
+        "building envelope improvement", "smart thermal regulation", "deep renovation", "Energy Performance of Buildings Directive",
+        "EPBD", "Renovation Wave", "Eurostat Energy Efficiency", "Energy Star",
+        "split incentives", "retrofit rate", "up-front investment cost", "housing affordability",
+        "gentrification risk"
     ],
-
-    "Noise and light pollution mitigation": [
-        "urban noise barriers", "quiet zone preservation", "low-noise road surfaces", "directional outdoor lighting",
-        "dark sky protection", "light pollution zoning", "acoustic building insulation", "International Dark-Sky Association",
-        "European Environment Agency Noise indicators", "WHO Environmental Noise Guidelines", "Eurocities Noise Working Group",
-        "rapid urbanization", "24/7 economic activity", "lack of harmonized standards", "public awareness deficits",
-        "enforcement low priority"
+
+    "Zero-emission building design and construction": [
+        "zero-emission buildings", "passive house design", "onsite renewable energy", "low-emissions heating",
+        "net-zero housing", "sustainable building standards", "low-carbon construction", "EU Green Building",
+        "LEED certification", "BREEAM", "World Green Building Council", "Ecodesign Directive",
+        "construction cost premium", "embodied carbon debate", "regulatory compliance burden", "net-zero greenwashing",
+        "building lifespan"
     ],
-
-    "Environmental emergency response and remediation": [
-        "oil spill response optimization", "industrial accident preparedness", "contaminated land remediation", "hazardous plume containment",
-        "emergency response coordination", "bioremediation technologies", "post-disaster environmental assessment", "UNEP/OCHA Joint Environment Unit",
-        "Remediation Technologies Screening Matrix", "Seveso Directive", "Superfund program",
-        "liability avoidance", "remediation cost funding gaps", "delayed emergency response", "technical capacity deficits",
-        "long-term ecological monitoring"
+
+    "Circularity and building material reuse": [
+        "building material reuse", "disassembly and deconstruction", "circular material flows", "construction waste prevention",
+        "repurposing buildings", "secondary building materials", "material recovery", "Waste Framework Directive",
+        "Circular Economy Action Plan", "REACH regulation", "Cradle to Cradle", "EMAS",
+        "structural safety concerns", "toxic legacy materials", "downcycling", "demolition waste dumping",
+        "waste trade"
     ],
-
-    "Climate change adaptation policy and governance": [
-        "national adaptation plans", "climate risk disclosure", "climate vulnerability assessment", "local adaptation planning",
-        "adaptation finance tracking", "multi-level climate governance", "institutional capacity building", "UNFCCC Adaptation Committee",
-        "Global Center on Adaptation", "IPCC WGII", "EU Strategy on Adaptation", "SDG Target 13.1",
-        "adaptation funding gap", "short-term political cycles", "siloed institutional structures", "uncertain climate projections",
-        "maladaptation risks"
+
+    "Low-carbon material substitution (Bio-based materials)": [
+        "bio-based materials", "sustainably sourced wood", "long-lived wood products", "construction material substitution",
+        "engineered timber", "natural building materials", "carbon sequestration in products", "FSC certification",
+        "PEFC", "FLEGT", "EU Timber Regulation", "Nagoya Protocol",
+        "carbon sink integrity", "harvesting rates", "land-use competition", "forest degradation risk",
+        "biomass sustainability"
     ],
-
-    "Infrastructure resilience and disaster risk reduction": [
-        "resilient infrastructure standards", "critical asset protection", "nature-based risk reduction", "early warning systems integration",
-        "disaster recovery frameworks", "climate-proofed utility networks", "seawall and coastal defense engineering", "UNDRR",
-        "Sendai Framework", "Coalition for Disaster Resilient Infrastructure", "Global Platform for Disaster Risk Reduction", "SDG Target 9.a",
-        "high upfront resilience costs", "maintenance funding deficits", "outdated engineering codes", "rapid uncoordinated urban expansion",
-        "insurance market withdrawals"
+
+    "Sufficiency and demand management in built environments": [
+        "sufficiency measures", "demand-side mitigation", "floor area per capita", "co-housing models",
+        "resource-efficient lifestyles", "urban density management", "avoid-shift-improve", "IPCC WGIII",
+        "SDG 12.1", "10-Year Framework of Programmes", "C40 Cities", "UN-Habitat",
+        "living standards conflict", "lifestyle changes", "degrowth debate", "personal freedom",
+        "urban sprawl"
     ],
-
-    "Community-based adaptation and local knowledge": [
-        "community-based adaptation", "indigenous climate knowledge", "local adaptation action", "participatory vulnerability mapping",
-        "community-led asset protection", "traditional ecological farming", "local climate safety nets", "Global Hub on Indigenous Peoples",
-        "CBA conference network", "IIED Local Action", "SDG Target 13.b",
-        "marginalization of local voices", "funding access barriers", "top-down policy imposition", "loss of traditional practices",
-        "scale-up constraints"
+
+    "Climate adaptation and resilient building infrastructure": [
+        "climate resilient development", "disaster risk management", "urban heat island mitigation", "flood-resilient housing",
+        "building adaptation solutions", "thermal regulation", "early warning systems", "Sendai Framework",
+        "Global Adaptation Network", "United Nations-supported Principles for Responsible Investment", "Green Climate Fund", "maladaptation",
+        "seawall lock-in", "inequitable protection", "vulnerability transition", "relocation risks"
     ],
 
-    "Ecosystem-based adaptation (EbA)": [
-        "ecosystem-based adaptation", "nature-based climate solutions", "mangrove coastal protection", "watershed forest restoration",
-        "urban green corridors for cooling", "agroecological microclimate management", "wetland flood retention", "EbA Community of Practice",
-        "IUCN NbS Standard", "Global Ecosystem-based Adaptation Fund", "CBD Ecosystem Restoration",
-        "slow realization of benefits", "land-use competition", "quantification of adaptation benefits", "institutional preference for gray infrastructure",
-        "funding valuation challenges"
+    "Compact urban form and land-use planning": [
+        "compact urban form", "job-housing co-location", "urban urbanization", "spatial planning integration",
+        "urban densification", "integrated spatial strategies", "transit-oriented development", "SDG 11.3",
+        "UN-Habitat", "New Urban Agenda", "C40 Cities", "Local Governments for Sustainability",
+        "urban sprawl", "green gentrification", "habitat fragmentation", "land competition",
+        "forced displacement"
     ],
 
-    "Resource efficiency and material decoupling": [
-        "resource footprint reduction", "material decoupling metrics", "dematerialization strategies", "industrial eco-efficiency",
-        "sustainable resource processing", "lifecycle material optimization", "sustainable extraction quotas", "International Resource Panel",
-        "UNEP Resource Efficiency", "OECD Material Flows", "SDG Target 8.4 and 12.2",
-        "rebound effects (Jevons paradox)", "linear business models", "extractive industry lobbying", "underpriced raw materials",
-        "data collection gaps"
+    "Urban Nature-based Solutions (NbS) and Green/Blue Infrastructure": [
+        "urban nature-based solutions", "green-blue infrastructure", "ecosystem-based adaptation", "urban forests",
+        "rooftop gardens", "permeable surfaces", "ecological connectivity", "Convention on Biological Diversity",
+        "IPBES Global Assessment", "IUCN NbS Standard", "European Green Capital", "Global Environment Facility",
+        "nature-based greenwashing", "ecological representative", "implementation scale", "maintenance costs",
+        "grey-infrastructure bias"
     ],
 
-    "Eco-design and product lifetime extension": [
-        "design for durability", "repairability indexes", "right to repair legislation", "upgradeable product design",
-        "modular electronic architecture", "toxic substance substitution", "product-as-a-service models", "Ecodesign Sustainable Product Regulation",
-        "The Restart Project", "iFixit European Network", "Ellen MacArthur Foundation Product Design",
-        "planned obsolescence", "intellectual property restrictions", "consumer desire for novelty", "high repair costs",
-        "spare parts availability"
+    "Slum upgrading and resilient housing for the vulnerable": [
+        "slum upgrading", "informal settlements", "resilient housing", "social protection programs",
+        "urban poverty reduction", "vulnerable urban populations", "adequate housing access", "SDG 11.1",
+        "UN-Habitat Slum Almanac", "World Bank Urban Development", "Slum Dwellers International", "International Federation of Red Cross",
+        "inequitable protection", "marginalized residents", "forced relocation", "relocation risks",
+        "legal status of migrants"
     ],
 
-    "Sustainable procurement and supply chain circularity": [
-        "green public procurement", "sustainable supply chain management", "circular sourcing standards", "supplier environmental audits",
-        "scope 3 material tracking", "take-back supply chain logistics", "recycled content verification", "Global Green Procurement Network",
-        "ISO 20400", "Sustainable Purchasing Leadership Council", "EU GPP Criteria", "SDG Target 12.7",
-        "higher initial procurement costs", "lack of supplier data transparency", "fragmented global supply chains", "small supplier resource constraints",
-        "greenwashing in sourcing"
+    "Urban air quality and municipal waste management": [
+        "urban air quality", "municipal waste management", "per capita environmental impact", "ambient air pollution",
+        "waste collection systems", "hazardous chemicals management", "particulate matter monitoring", "WHO Air Quality Guidelines",
+        "Circular Economy Action Plan", "Waste Framework Directive", "Eurostat Waste", "SDG 11.6",
+        "toxic dumping", "incineration impacts", "waste trade", "pollution hotspots",
+        "smog deaths"
     ],
 
-    "Industrial symbiosis and waste-to-resource networks": [
-        "industrial symbiosis", "by-product exchange networks", "waste heat industrial utilization", "co-located manufacturing clusters",
-        "shared industrial utility infrastructure", "inter-industry material cascading", "regional resource matching platforms", "EURIS",
-        "International Industrial Symiosis Network", "European Circular Economy Stakeholder Platform", "GIZ Sustainable Industrial Areas",
-        "regulatory waste definitions barriers", "inter-firm trust deficits", "transport costs of by-products", "unaligned production schedules",
-        "contractual liability risks"
+    "Coastal and low-lying cities adaptation infrastructure": [
+        "sea-level rise adaptation", "storm surge barriers", "coastal defense infrastructure", "managed retreat",
+        "hard engineering solutions", "dike construction", "disaster risk systems", "Sendai Framework",
+        "SROCC report", "Global Adaptation Network", "Green Climate Fund", "Coastal Cities Network",
+        "maladaptation", "seawall lock-in", "inequitable protection", "coastal squeeze",
+        "irreversible losses"
     ],
 
-    "Occupational health and environmental hazard exposure": [
-        "occupational environmental health", "workplace chemical safety", "industrial noise protection", "ergonomic environmental hazards",
-        "worker heat stress prevention", "airborne hazard exposure control", "occupational disease tracking", "ILO Environmental Standards",
-        "OSHA Environmental Hazards", "EU-OSHA", "WHO Occupational Health", "SDG Target 8.8",
-        "underreporting of worker illness", "weak enforcement in informal sectors", "cost-cutting safety compliance", "corporate liability shield",
-        "migrant worker exploitation"
+    "Digital solutions for climate monitoring and system optimization": [
+        "geospatial information systems", "earth observation data", "climate services monitoring", "smart-grid technology integration",
+        "digital system optimization", "satellite-based climate monitoring", "precision environmental data", "Group on Earth Observations",
+        "Copernicus Program", "SDG Target 17.16", "C40 Cities Network", "UN-Habitat Digital",
+        "data accessibility barriers", "technological lock-in risk", "digital monitoring divide", "information proprietary restrictions",
+        "high-cost data infrastructure"
     ],
 
-    "Environmental justice and community health impacts": [
-        "environmental justice", "fenceline community protection", "disproportionate pollution exposure", "community health monitoring",
-        "environmental health inequities", "participatory environmental monitoring", "toxic trespass redress", "EJAtlas",
-        "EPA Office of Environmental Justice", "Global Alliance on Health and Pollution", "Aarhus Convention", "SDG Target 16.7",
-        "systemic political marginalization", "corporate legal resource asymmetry", "difficulty proving health causality", "lack of local air/water data",
-        "economic blackmail"
+    "Universal internet access and digital connectivity": [
+        "universal internet access", "affordable digital connectivity", "ICT infrastructure expansion", "broadband network deployment",
+        "information communications technology access", "bridging digital divide", "global telecommunications connectivity", "International Telecommunication Union",
+        "SDG Target 9.c", "World Bank Digital", "Alliance for Affordable Internet", "UNESCO ICT Taskforce",
+        "unequal digital access", "infrastructure investment gap", "connectivity affordability crisis", "marginalized community exclusion",
+        "digital literacy barriers"
     ],
 
-    "Public health tracking of climate impacts": [
-        "climate health surveillance", "heat-related mortality tracking", "vector-borne disease climate vectors", "extreme weather health registry",
-        "mental health climate anxiety", "air pollution health impacts", "climate-resilient health systems", "Lancet Countdown on Health and Climate Change",
-        "WHO Climate Change and Health", "CDC Climate and Health Program", "European Climate and Health Observatory",
-        "siloed health and climate data", "underfunded public health systems", "attribution challenges", "vulnerable population tracking gaps",
-        "geographic health surveillance disparities"
+    "Environmentally sound technology transfer": [
+        "technology facilitation mechanism", "environmentally sound technology transfer", "low-emission technology diffusion", "North-South technical cooperation",
+        "concessional technology terms", "capacity-building technical support", "joint scientific research", "UNFCCC Technology Executive Committee",
+        "Green Climate Fund", "Doha Development Round", "World Trade Organization", "Technology Bank for LDCs",
+        "intellectual property barriers", "concessional term disputes", "technology implementation gap", "foreign provider overdependence",
+        "asymmetric knowledge transfer"
     ],
 
-    "Chemical safety and consumer product toxicology": [
-        "consumer product chemical safety", "endocrine disruptor screening", "toxic consumer exposure", "chemical transparency labeling",
-        "biomonitoring studies", "safe-by-design consumer products", "children environmental health protection", "IPCP",
-        "ChemSec", "EU Consumer Safety Regulation", "US CPSC Environmental",
-        "trade secret chemical formulas", "slow regulatory toxicity testing", "regrettable chemical substitution", "lobbying by chemical brands",
-        "global e-commerce enforcement gaps"
+    "Energy intensity and environmental footprint of ICT": [
+        "ICT energy intensity", "digital resource consumption", "electronic waste management", "critical minerals footprint",
+        "data center energy demand", "ICT lifecycle assessment", "rebound effect of innovation", "WEEE Directive",
+        "Circular Economy Action Plan", "Global E-waste Monitor", "Critical Raw Materials Act", "Eco-design Directive",
+        "energy-hungry data", "critical minerals rush", "electronic waste dumping", "digital rebound effect",
+        "resource depletion concerns"
     ],
 
-    "Environmental criteria in global financial regulation": [
-        "green taxonomy integration", "climate financial risk disclosure", "double materiality frameworks", "sustainable finance regulations",
-        "esg prudential requirements", "central bank green mandates", "sovereign green bond frameworks", "NGFS",
-        "ISSB", "EU Sustainable Finance Disclosure Regulation", "TCFD",
-        "greenwashing of financial assets", "fragmented national taxonomies", "data reliability deficits", "short-term financial optimization",
-        "political pushback against ESG"
+    "Renewable energy generation (Solar, Wind, Geothermal, and Hydropower)": [
+        "solar photovoltaic", "offshore wind", "concentrated solar power", "geothermal energy",
+        "run-of-river hydro", "variable renewable energy", "renewable heat", "IRENA",
+        "International Energy Agency", "SolarPower Europe", "Global Wind Energy Council", "RE100",
+        "bird-killing turbines", "renewable intermittency", "renewable curtailment", "landscape industrialization",
+        "solar waste"
     ],
 
-    "Corporate sustainability reporting and greenwashing prevention": [
-        "corporate sustainability disclosures", "anti-greenwashing enforcement", "sustainability assurance standards", "scope 3 emissions disclosure",
-        "materiality assessment auditing", "sustainability KPI verification", "corporate green claims regulation", "GRI",
-        "Corporate Sustainability Reporting Directive", "SEC Climate Disclosure Rule", "Value Reporting Foundation",
-        "compliance cost burden", "vague qualitative reporting", "supply chain data black boxes", "weak enforcement penalties",
-        "consulting industry conflicts of interest"
+    "Energy infrastructure, transmission, and grid reinforcement": [
+        "high-voltage transmission", "smart grid integration", "grid reinforcement", "interconnector capacity",
+        "electricity distribution network", "grid stability", "decentralized energy systems", "ENTSO-E",
+        "Transmission System Operator", "Distribution System Operator", "European Grid Initiative", "Cigré",
+        "grid bottlenecks", "NIMBY infrastructure", "transmission losses", "grid congestion",
+        "centralized-vs-decentralized"
     ],
 
-    "Responsible investment and ESG integration": [
-        "esg integration strategies", "responsible investment policies", "sustainability-themed investing", "shareholder environmental activism",
-        "impact investing metrics", "fiduciary duty environmental interpretation", "esg rating methodology transparency", "UN PRI",
-        "Ceres Investor Network", "Global Sustainable Investment Alliance", "Institutional Investors Group on Climate Change",
-        "lack of rating standardization", "greenwashing by fund managers", "fiduciary duty legal challenges", "short-term performance metrics",
-        "esg data coverage gaps"
+    "Energy storage technologies": [
+        "lithium-ion batteries", "pumped hydro storage", "thermal energy storage", "battery life-cycle",
+        "flywheel energy storage", "utility-scale storage", "chemical energy storage", "European Battery Alliance",
+        "Global Battery Alliance", "EUROBAT", "IEA Storage", "Battery Passport",
+        "lithium scarcity", "battery resource footprint", "storage degradation", "fire safety risks",
+        "critical mineral dependency"
     ],
 
-    "Environmental liability and risk insurance": [
-        "environmental liability insurance", "polluter pays enforcement tracking", "environmental remediation bonds", "climate risk underwritings",
-        "natural catastrophe insurance pools", "environmental liability asset valuation", "corporate insolvency environmental provisions", "InsuResilience Global Partnership",
-        "EU Environmental Liability Directive", "Geneva Association", "Principles for Sustainable Insurance",
-        "uninsurable climate risks", "corporate bankruptcy liability evasion", "underestimating systemic climate risk", "insurance affordability crises",
-        "data limitations for long-tail risks"
+    "Low-emission hydrogen and alternative carriers": [
+        "green hydrogen", "low-emission ammonia", "synthetic kerosene", "electrolyser capacity",
+        "hydrogen-based fuels", "power-to-gas", "alternative energy carriers", "Hydrogen Council",
+        "Clean Hydrogen Partnership", "IPHE", "Green Hydrogen Catapult", "H2Global",
+        "hydrogen greenwashing", "energy density penalties", "infrastructure conversion costs", "hydrogen leakage",
+        "blue-vs-green debate"
     ],
 
-    "Renewable energy access and grid decentralization": [
-        "decentralized energy access", "off-grid solar systems", "mini-grid deployment", "clean cooking solutions",
-        "community energy ownership", "rural electrification programs", "poverty-alleviating energy policies", "Sustainable Energy for All",
-        "IRENA Off-Grid", "GOGLA", "Clean Cooking Alliance", "SDG 7.1",
-        "affordability barriers", "lack of maintenance infrastructure", "regulatory entry barriers", "financing risk premiums",
-        "fossil fuel cooking subsidies"
+    "Bioenergy and biomass-based energy production": [
+        "biomass bioenergy", "wood pellets", "biofuel feedstock", "second-generation biofuels",
+        "bioenergy with CCS", "BECCS", "short-rotation coppice", "Renewable Energy Directive",
+        "Global Bioenergy Partnership", "FSC certification", "Roundtable on Sustainable Biomaterials", "food-vs-fuel",
+        "monoculture plantations", "carbon debt", "indirect land-use change", "biodiversity-bioenergy trade-offs"
     ],
 
-    "Just transition and clean energy employment": [
-        "clean energy job creation", "green skills training", "fossil fuel worker transition", "regional economic diversification",
-        "fair labor green standards", "local community benefit agreements", "social protection green transition", "ILO Green Jobs",
-        "Just Transition Centre", "European Just Transition Fund", "B Team", "SDG Target 8.5",
-        "geographic mismatch of jobs", "wage disparities green vs fossil", "underfunded retraining programs", "loss of unionized workforce power",
-        "community identity disruption"
+    "Fugitive methane emissions reduction (Coal, Oil, and Gas supply)": [
+        "methane leak detection", "gas flaring reduction", "fugitive emissions monitoring", "coal mine methane",
+        "vapor recovery units", "gas supply chain integrity", "abated fossil fuels", "Global Methane Pledge",
+        "Oil and Gas Methane Partnership", "IEA Methane Tracker", "Methane Guiding Principles", "invisible pollution",
+        "industry self-regulation", "unmonitored leaks", "unabated fossil fuels", "satellite monitoring shaming"
     ],
 
-    "Gender equity in environmental governance": [
-        "gender-responsive environmental policy", "women land ownership rights", "gender climate vulnerability", "women environmental leadership",
-        "gender-disaggregated environmental data", "inclusive natural resource management", "gender-green energy nexus", "UNFCCC Gender Action Plan",
-        "WEDO", "IUCN Global Gender Office", "GGCA", "SDG Target 5.a and 13.b",
-        "exclusion from decision-making", "entrenched patriarchal land laws", "underfunding of women organizations", "unequal domestic burden climate impacts",
-        "gender-blind climate projects"
+    "Nuclear energy generation": [
+        "nuclear", "nuclear fission", "small modular reactors", "baseload power",
+        "uranium enrichment", "spent nuclear fuel", "generation III+ reactors", "IAEA",
+        "Euratom", "World Association of Nuclear Operators", "Nuclear Energy Agency", "EU Taxonomy Transition Activities",
+        "nuclear waste disposal", "radioactive fallout", "meltdown risk", "proliferation concern",
+        "high decommissioning costs"
     ],
 
-    "Indigenous rights and traditional land tenure": [
-        "indigenous land titling", "free prior and informed consent", "traditional ecological knowledge", "indigenous co-management agreements",
-        "territorial environmental protection", "indigenous climate leadership", "cultural heritage environmental preservation", "UNPFII",
-        " Rights and Resources Initiative", "Amazon Basin Indigenous Organizations", "UN Declaration on the Rights of Indigenous Peoples", "SDG Target 15.6",
-        "violent land encroachment", "legal framework gaps", "assassination of environmental defenders", "exclusion from international carbon markets",
-        "paternalistic conservation models"
+    "Sustainable agricultural intensification and crop production": [
+        "sustainable agricultural intensification", "agricultural productive capacity", "crop yield stability", "resilient agricultural practices",
+        "crop wild relatives", "plant gene banks", "food security nutrition", "FAO",
+        "Committee on World Food Security", "Rome Declaration on Nutrition", "SDG 2.4", "CGIAR",
+        "biotech debate", "industrial agriculture expansion", "corporate seed control", "yield gap",
+        "technological lock-in"
     ],
 
-    "Environmental law enforcement and anti-corruption": [
-        "environmental crime prosecution", "anti-corruption in resource allocation", "illegal wildlife trade interdiction", "environmental inspection capacity",
-        "whistleblower environmental protection", "transnational environmental law enforcement", "timber traceability enforcement", "INTERPOL Environmental Security",
-        "UNODC Global Programme on Environmental Crime", "Transparency International Environmental Governance", "EIA", "SDG Target 16.5",
-        "bribery of enforcement officials", "weak judicial environmental penalties", "lack of cross-border enforcement coordination", "corporate capture of regulators",
-        "defenders security risks"
+    "Efficient and sustainable livestock systems": [
+        "livestock systems efficiency", "enteric fermentation", "animal husbandry", "pastoralist development",
+        "silvopastoral systems", "livestock methane emissions", "manure management", "OIE World Organisation for Animal Health",
+        "Global Agenda for Sustainable Livestock", "ILRI", "LEAP Partnership", "International Livestock Research Institute",
+        "factory farming", "meat tax", "overgrazing degradation", "livestock-driven deforestation",
+        "animal welfare ethics"
     ],
 
-    "Access to environmental information and justice": [
-        "environmental data transparency", "public access environmental records", "citizen environmental litigation", "independent environmental impact assessment",
-        "public consultation frameworks", "legal aid environmental cases", "protection of environmental defenders", "Aarhus Convention",
-        "Escazu Agreement", "Access Initiative", "World Commission on Environmental Law", "SDG Target 16.10",
-        "slapp suits by corporations", "state secrecy environmental security", "high cost of legal representation", "lack of independent data",
-        "threats against activists"
+    "Agroecology and regenerative practices": [
+        "agroecology", "regenerative agriculture", "soil carbon sequestration", "multifunctional landscape planning",
+        "agrobiodiversity", "traditional management practices", "soil organic carbon", "Via Campesina",
+        "Nagoya Protocol", "IPBES Indigenous Knowledge Task Force", "IFOAM Organics International", "Global Soil Partnership",
+        "traditional-vs-industrial", "greenwashing agroecology", "carbon farming verification", "land-grabbing",
+        "yield trade-offs"
     ],
 
-    "International environmental treaty compliance": [
-        "environmental treaty enforcement", "national compliance mechanisms", "international environmental dispute resolution", "multilateral environmental agreements tracking",
-        "transboundary pollution dispute tracking", "global target reporting frameworks", "non-compliance penalty mechanisms", "UNFCCC Compliance Committee",
-        "UNEP Environmental Law and Conventions", "Permanent Court of Arbitration Environmental", "InforMEA", "SDG Target 17.14",
-        "lack of enforcement teeth", "national sovereignty geo-politics", "withdrawal from treaties", "weak domestic ratification",
-        "reporting verification gaps"
+    "Food loss and waste reduction": [
+        "food waste reduction", "post-harvest losses", "per capita food waste", "supply chain efficiency",
+        "retail food waste", "consumer food waste", "food value chains", "SDG 12.3",
+        "Champions 12.3", "Save Food Initiative", "Food Loss Index", "WRAP",
+        "retailer accountability", "ugly veg stigma", "expiration date confusion", "dumpster diving",
+        "waste-to-energy debate"
     ],
 
-    "Subnational environmental policy and city network coordination": [
-        "subnational climate action", "city-level environmental regulations", "regional green cooperation", "municipal waste targets",
-        "local ecological zoning", "subnational environmental finance", "city network green alliances", "C40 Cities Network",
-        "ICLEI Local Governments", "Under2 Coalition", "Global Covenant of Mayors", "SDG Target 11.a",
-        "unfunded municipal mandates", "jurisdictional conflicts state vs city", "limited local tax capacity", "political alignment shifts",
-        "rural-urban resource conflicts"
+    "Nutrient and pesticide management": [
+        "pesticides", "integrated pest management", "nutrient pollution", "synthetic fertilizers",
+        "non-point source pollution", "agricultural runoff", "eutrophication", "Stockholm Convention",
+        "Rotterdam Convention", "REACH regulation", "Codex Alimentarius", "Pesticide Action Network",
+        "bee-killing pesticides", "chemical fertilizer impact", "pesticide treadmill", "toxic legacy sites",
+        "chemical lobby"
     ],
 
-    "Sustainable agricultural policy and smallholder support": [
-        "smallholder sustainable support", "agroecological transition subsidies", "sustainable agricultural extension services", "fair market access for eco-products",
-        "resilient smallholder supply chains", "rural green credit facilities", "cooperative sustainable farming models", "IFAD",
-        "FAO Smallholders", "Via Campesina", "Global Alliance for Sustainable Agriculture", "SDG Target 2.3",
-        "market dominance of agribusiness", "subsidy bias to industrial farming", "land consolidation pressures", "climate vulnerability smallholders",
-        "lack of technical training"
+    "Irrigation and agricultural water management": [
+        "agricultural irrigation", "on-farm water management", "water-use efficiency", "sustainable freshwater withdrawals",
+        "aquifer recharge", "conjunctive water use", "desalination", "UN-Water",
+        "Global Water Partnership", "IWMI", "SDG 6.4", "International Commission on Irrigation and Drainage",
+        "groundwater over-abstraction", "water-rights conflict", "dam-induced fragmentation", "drought-resilience gap",
+        "irrigation-vs-biodiversity trade-offs"
     ],
 
-    "Food waste reduction and circular food chains": [
-        "food loss reduction", "circular urban food systems", "surplus food redistribution", "organic waste valorization",
-        "cold chain infrastructure efficiency", "food waste tracking metrics", "consumer behavioral food waste campaigns", "Champions 12.3",
-        "WRAP", "FAO Food Loss and Waste", "EU Platform on Food Losses and Food Waste", "SDG Target 12.3",
-        "expiration date confusion", "retail cosmetic appearance standards", "uncoordinated distribution networks", "low disposal cost of food",
-        "cold chain energy intensity"
+    "Forest conservation and avoided deforestation": [
+        "avoided deforestation", "primary forest protection", "old-growth forest preservation", "high-carbon ecosystem conservation",
+        "forest conversion prevention", "halting deforestation", "tropical forest integrity", "REDD+",
+        "Amazon Fund", "COP21 Forest Goals", "IUCN Green List", "Convention on Biological Diversity",
+        "land tenure insecurity", "conservation-driven displacement", "illegal logging syndicates", "carbon credit leakage",
+        "protected area encroachment"
     ],
 
-    "Sustainable aquaculture and marine wild capture alignment": [
-        "sustainable aquaculture certification", "recirculating aquaculture systems", "low-trophic aquaculture development", "traceable wild capture systems",
-        "marine eco-labeling standards", "aquaculture nutrient pollution control", "artisanal fisheries protection", "FAO Code of Conduct for Responsible Fisheries",
-        "MSC", "ASC", "Global Seafood Alliance", "SDG Target 14.7",
-        "bycatch verification issues", "antibiotic overuse in aquaculture", "feed fish dependency", "mangrove clearance aquaculture",
-        "forced labor in fishing fleets"
+    "Reforestation, afforestation, and ecological restoration": [
+        "afforestation", "reforestation", "ecological restoration", "native species replanting",
+        "assisted natural regeneration", "landscape rewilding", "forest landscape restoration", "Bonn Challenge",
+        "UN Decade on Ecosystem Restoration", "Global Partnership on Forest and Landscape Restoration", "New York Declaration on Forests", "Trillion Trees Initiative",
+        "monoculture plantation risk", "non-native invasive species", "land competition for food", "greenwashing plantations",
+        "tree planting failure"
     ],
 
-    "Genetic diversity protection and fair benefits sharing": [
-        "agricultural genetic preservation", "fair and equitable benefit sharing", "seed bank infrastructure preservation", "equitable bioprospecting frameworks",
-        "indigenous crop variety protection", "farmers rights to seeds", "nagoya protocol enforcement tracking", "Nagoya Protocol",
-        "Global Crop Diversity Trust", "CBD Clearing-House", "FAO Plant Treaty", "SDG Target 2.5",
-        "biopiracy by multinational firms", "patent lock-in of seeds", "loss of traditional seed knowledge", "regulatory complexity bioprospecting",
-        "seed market monopolization"
+    "Sustainable forest management and certified logging": [
+        "sustainable forest management", "reduced impact logging", "certified timber production", "long-lived wood products",
+        "forest regeneration capacity", "sustainable harvesting rates", "stewardship of forest land", "FSC certification",
+        "PEFC standards", "EU Timber Regulation", "FLEGT Action Plan", "International Tropical Timber Organization",
+        "industrial logging greenwashing", "old-growth timber trade", "logging-road fragmentation", "unsustainable harvest intensity",
+        "certification integrity gaps"
     ],
 
-    "Urban water security and infrastructure investment": [
-        "urban water supply resilience", "water utility leakage reduction", "sustainable storm water management", "decentralized urban water systems",
-        "smart water metering", "urban aquifer protection", "resilient drinking water systems", "World Bank Water",
-        "IWA Sustainable Cities", "WaterAid Urban", "EU Urban Waste Water Directive", "SDG Target 11.6",
-        "huge infrastructure financing gaps", "aging water pipe networks", "rapid un-piped urban growth", "water privatization conflicts",
-        "climate-driven supply depletion"
+    "Peatland, wetland, and coastal ecosystem conservation": [
+        "peatland restoration", "wetland conservation", "mangrove forest protection", "blue carbon sequestration",
+        "coastal ecosystem management", "seagrass meadow preservation", "high-carbon stocks preservation", "Ramsar Convention",
+        "Blue Carbon Initiative", "Wetlands International", "Global Peatlands Initiative", "Mangroves for the Future",
+        "coastal development pressure", "drainage for agriculture", "peat-land fire weather", "aquaculture conversion impacts",
+        "measuring blue carbon uncertainty"
     ],
 
-    "Rural sanitation and hygiene access": [
-        "safely managed rural sanitation", "community-led total sanitation", "hygiene infrastructure behavioral programs", "non-sewered sanitation systems",
-        "school sanitation facilities access", "menstrual hygiene management infrastructure", "groundwater contamination prevention sanitation", "UNICEF Sanitation",
-        "WSSCC", "Sustainable Sanitation Alliance", "Water Supply and Sanitation Collaborative Council", "SDG Target 6.2",
-        "underfunded rural services", "cultural taboos hygiene behavioral change", "water scarcity sanitation limitations", "weak local government operation capacity",
-        "disparate sparse population logistics"
+    "Extraction of critical minerals for the energy transition": [
+        "critical minerals extraction", "lithium brine mining", "rare earth elements", "cobalt supply chain",
+        "transition mineral mining", "high-grade ore processing", "nickel sulfide extraction", "Critical Raw Materials Act",
+        "International Energy Agency", "Responsible Minerals Initiative", "Energy Resource Governance Initiative", "OECD Mineral Guidelines",
+        "deep-sea mining", "resource curse", "transition mineral rush", "indigenous land rights",
+        "habitat fragmentation"
     ],
 
-    "Industrial water pollution enforcement and transparency": [
-        "industrial effluent discharge tracking", "polluter disclosure transparency", "stringent industrial water fines", "real-time effluent monitoring",
-        "toxic discharge public registry", "industrial water permit enforcement", "clean water legal advocacy", "Cepa pollution tracking",
-        "E-PRTR", "WRI Aqueduct", "China IPE pollution map", "SDG Target 6.3",
-        "corrupt regulatory compliance masking", "weak environmental agency funding", "legal loopholes for old factories", "measurement tampering",
-        "lack of public disclosure laws"
+    "Mining waste and hazardous chemical management": [
+        "mine tailings management", "tailing storage facilities", "acid mine drainage", "heavy metal contamination",
+        "hazardous mineral waste", "cyanide leaching", "mineral extraction effluent", "Global Industry Standard on Tailings Management",
+        "EU Mining Waste Directive", "Minamata Convention", "International Council on Mining and Metals", "Basel Convention",
+        "tailing dam failure", "toxic sludge spill", "water table poisoning", "cleanup liability gap",
+        "dirty mining legacy"
     ],
 
-    "Transboundary water cooperation and hydro-politics": [
-        "transboundary water agreements", "joint river basin management", "international water data sharing", "cross-border aquifer cooperation",
-        "hydro-diplomacy mechanisms", "shared water dispute resolution", "equitable water allocation tracking", "UNECE Water Convention",
-        "International Network of Basin Organizations", "Stockholm International Water Institute", "UNESCO-IHP", "SDG Target 6.5",
-        "national security water secrecy", "upstream-downstream political power asymmetry", "climate-driven flow variability disputes", "unilateral dam building projects",
-        "absence of legal treaties"
+    "Resource use efficiency and circularity in extraction": [
+        "mineral resource efficiency", "secondary raw materials recovery", "circular mining processes", "tailings repurposing",
+        "industrial symbiosis mining", "low-waste extraction", "mine-to-market optimization", "Circular Economy Action Plan",
+        "ISO 14001", "United Nations Framework Classification for Resources", "European Innovation Partnership on Raw Materials", "Waste Framework Directive",
+        "efficiency greenwashing", "technical feasibility gap", "mining rebound effect", "downcycling minerals",
+        "investment barrier"
     ],
 
-    "Sustainable tourism policies and local products": [
-        "sustainable tourism certification", "local sourcing in tourism", "community-based tourism development", "eco-tourism standards enforcement",
-        "cultural heritage tourism conservation", "tourism carrying capacity limits", "local economic retention tourism", "UN Tourism",
-        "Global Sustainable Tourism Council", "Sustainable Tourism Programme", "Transformational Travel Council", "SDG Target 8.9 and 12.b",
-        "leakage of tourism revenue", "overtourism eroding local cultures", "greenwashed eco-resorts", "seasonal employment volatility",
-        "displacement of local communities"
+    "Impact of illegal and small-scale mining": [
+        "artisanal small-scale mining", "illegal gold mining", "wildcat mining operations", "mercury-based extraction",
+        "unpermitted pit mining", "untraceable mineral supply", "conflict mineral trade", "OECD Due Diligence Guidance",
+        "Kimberley Process", "Interpol Environmental Crime", "CITES", "United Nations Convention against Transnational Organized Crime",
+        "blood gold", "forced displacement", "mercury poisoning", "organized crime mining",
+        "social conflict"
     ],
 
-    "Carbon footprint of tourism-related travel": [
-        "tourism transport decarbonization", "aviation emission offsets tourism", "sustainable destination mobility", "rail tourism development",
-        "cruise ship emission regulation", "long-haul tourism reduction strategies", "low-carbon tourist transport options", "Glasgow Declaration on Climate Action in Tourism",
-        "Sustainable Travel International", "TRAST", "Fly Green Alliance", "SDG Target 12.c",
-        "high growth in long-haul flights", "cruise line heavy fuel use", "destination dependence on aviation", "ineffective carbon offset schemes",
-        "lack of alternative low-carbon regional rail"
+    "Linear infrastructure expansion (Roads and Rail)": [
+        "paved road length", "transport corridors", "linear infrastructure expansion", "railway network development",
+        "habitat fragmentation", "ecosystem connectivity", "unprecedented infrastructure growth", "Global Road Map",
+        "Convention on Migratory Species", "Trans-European Transport Network (TEN-T)", "IUCN Connectivity Conservation", "Sustainable Infrastructure Tool",
+        "land grabbing", "population displacement", "environmental social costs", "illegal logging access",
+        "forest clearing for roads"
     ],
 
-    "Resource efficiency in the hospitality sector": [
-        "hotel energy efficiency retrofits", "hospitality food waste reduction", "water-saving hotel systems", "single-use plastic bans hospitality",
-        "green hotel architecture design", "sustainable linen management laundering", "circular procurement in hotels", "Sustainable Hospitality Alliance",
-        "Green Key Global", "EarthCheck", "EU Ecolabel Tourist Accommodation", "SDG Target 12.5",
-        "high upfront retrofitting costs", "guest luxury comfort expectations", "fragmented franchise ownership compliance", "laundering chemical water pollution",
-        "short-term commercial leases"
-    ],
-
-    "Biodiversity integration in tourism development": [
-        "tourism biodiversity impact assessment", "wildlife tourism ethics regulation", "nature-based tourism conservation fees", "habitat protection zoning tourist zones",
-        "marine tourism reef protection", "indigenous-led nature guiding", "invasive species prevention tourist paths", "Linking Tourism & Conservation",
-        "The International Ecotourism Society", "IUCN Tourism and Protected Areas", "Convention on Biological Diversity Tourism Guidelines", "SDG Target 15.a",
-        "habitat fragmentation for resorts", "wildlife disturbance by tourists", "illegal wildlife souvenir trade", "enclosure of conservation areas",
-        "unregulated cruise ship coastal damage"
-    ],
-
-    "E-waste management and critical material recovery": [
-        "e-waste urban mining", "critical material recycling electronic", "producer take-back electronics", "informal e-waste formalization",
-        "toxic components e-waste safe removal", "circular smartphone design", "certified electronic recycling standards", "Step Initiative",
-        "Global E-waste Statistics Partnership", "Basel Action Network", "WEEE Forum", "SDG Target 12.4",
-        "illegal e-waste exports to developing countries", "complex multi-material electronic disassembly", "low cost of virgin materials", "primitive toxic open-burning recycling",
-        "consumer hoarding of obsolete electronics"
-    ],
-
-    "Extended Producer Responsibility (EPR) policy frameworks": [
-        "extended producer responsibility fee structures", "eco-modulation of epr fees", "producer responsibility organizations transparency", "mandatory packaging take-back",
-        "epr enforcement auditing", "closing the loop policy designs", "post-consumer material collection targets", "OECD EPR Guidance",
-        "Expra", "Global EPR Innovation Network", "Ellen MacArthur EPR Statement", "SDG Target 12.8",
-        "producer lobbying to lower fees", "pro tracking data gaps", "free-rider e-commerce sellers", "insufficient fees to cover collection",
-        "lack of municipal harmonization"
-    ],
-
-    "Plastics circularity and alternative materials": [
-        "food-grade recycled plastics", "bio-based compostable plastics", "mechanical plastic sorting automation", "plastic design for recyclability",
-        "chemical recycling depolymerization", "microplastic leakage prevention manufacturing", "zero-plastic retail business models", "Global Plastics Pact Network",
-        "Plastic Pollution Coalition", "Break Free From Plastic", "Ellen MacArthur New Plastics Economy", "SDG Target 14.1",
-        "low price of virgin fossil plastic", "chemical recycling high carbon footprint", "greenwashed biodegradable claims", "additives preventing plastic recycling",
-        "sorting infrastructure technology gaps"
-    ],
-
-    "Organic waste diversion and composting networks": [
-        "municipal source-separated organics", "industrial-scale composting systems", "anaerobic digestion biogas integration", "compost quality standards heavy metals",
-        "landfill organic bans enforcement", "urban community composting networks", "soil application of organic compost", "US Composting Council",
-        "European Compost Network", "Bio-based Industries Consortium", "Global Alliance for Incinerator Alternatives", "SDG Target 11.6",
-        "plastic contamination in organic streams", "odor control community opposition", "high transport cost of heavy wet waste", "lack of local agricultural markets",
-        "methane leakage from poor compost piles"
-    ],
-
-    "Clean energy access and rural electrification technology": [
-        "solar home systems", "isolated clean mini-grids", "pico-solar lanterns", "community-managed rural utilities",
-        "productive use energy appliances", "pay-as-you-go solar financing", "hybrid hydro-solar rural mini-grids", "Alliance for Rural Electrification",
-        "PRACTICAL ACTION energy", "Grounded in Energy Access Network", "Smarter Energy for Africa", "SDG Target 7.1",
-        "high risk defaults remote users", "lack of technician supply chains", "grid encroachment uncertainty", "limited local productive energy use",
-        "high battery replacement cost"
-    ],
-
-    "Just transition tracking and structural economic shifts": [
-        "just transition performance metrics", "fossil fuel community investment funds", "green diversification indicators regional", "labor union clean energy pacts",
-        "vulnerable worker tracking transition", "social dialogue green transition policy", "regional economic resilience planning", "Just Transition Research Collaborative",
-        "Wuppertal Institute Just Transition", "European Corporate Just Transition Indicators", "ITUC Just Transition Centre", "SDG Target 8.2",
-        "superficial checklist compliance corporate", "underfunded long-term regional transition", "resistance from fossil labor unions", "lack of granular community data",
-        "tokenistic worker consultation"
-    ],
-
-    "Gender mainstreaming in national environmental policies": [
-        "gender environmental action plans", "gender-budgeting in climate finance", "women agricultural extension access", "gender-balanced resource committees",
-        "climate impact gender vulnerability metrics", "women green entrepreneurship training", "gender equality natural resources law", "UN Women Climate Change",
-        "Gender CC - Women for Climate Justice", "IUCN Gender-Responsive Policy database", "GGCA Policy analysis", "SDG Target 5.c",
-        "bureaucratic resistance gender mainstreaming", "lack of gender-disaggregated data metrics", "purely tokenistic policy text representation", "deep-seated cultural legal barriers",
-        "underfunding gender focal points"
-    ],
-
-    "Indigenous land management and conservation partnerships": [
-        "indigenous-declared conservation areas", "co-management ancestral territories", "traditional ecological knowledge verification", "indigenous land stewardship funding",
-        "mapping indigenous customary lands", "indigenous rangers wildlife monitoring", "cultural land rights advocacy", "Indigenous Peoples of Africa Co-ordinating Committee",
-        "Forest Peoples Programme", "Land Rights Now", "Amazon Conservation Team", "SDG Target 15.9",
-        "state overriding customary land rights", "fortress conservation model conflicts", "lack of direct funding to indigenous groups", "corporate resource extraction pressures",
-        "scientific validation asymmetry traditional knowledge"
-    ],
-
-    "Environmental crime taskforces and cross-border enforcement": [
-        "transnational environmental taskforces", "illegal wildlife trade interdiction networks", "interpol purple notices environmental", "cross-border timber tracking databases",
-        "anti-money laundering environmental crime tracking", "joint customs environmental operations", "environmental forensics species identification", "EnviroCrime Network",
-        "Lusaka Agreement Task Force", "ASEAN Working Group on CITES and Wildlife Enforcement", "WCO Environment Programme", "SDG Target 16.a",
-        "unequal jurisdictional legal definitions", "lack of state judicial priority for green crime", "porous cross-border enforcement regions", "corruption of border customs officials",
-        "limited environmental forensic capacity"
-    ],
-
-    "Public disclosure laws and community right-to-know": [
-        "pollutant release and transfer registers", "community environmental right to know laws", "mandatory corporate pollution disclosure", "accessible public environmental databases",
-        "citizen science environmental air monitoring", "independent environmental audit disclosure", "freedom of information environmental requests", "E-PRTR network",
-        "RTK NET", "Open Government Partnership Environmental Working Group", "World Resources Institute Access initiative", "SDG Target 16.10",
-        "corporate lawsuit protection trade secrets", "overly complex unreadable data formats", "lengthy freedom of information processing delays", "lack of community internet access data",
-        "intimidation of data-seeking communities"
-    ],
-
-    "Multilateral environmental agreements compliance monitoring": [
-        "mea compliance tracking mechanisms", "independent satellite treaty verification", "national environmental reporting harmonization", "treaty non-compliance formal sanctions",
-        "peer-review treaty compliance states", "transnational environmental dispute arbitration", "global convention target scorecards", "UNEP MEA compliance guidelines",
-        "Vertic treaty verification", "Center for International Environmental Law treaty tracking", "Climate Action Tracker", "SDG Target 17.16",
-        "voluntary reporting lack of verification", "geopolitical gridlock blocking sanctions", "under-resourced treaty secretariat compliance arms", "national data manipulation hiding failure",
-        "lack of unified enforcement tribunal"
+    "Hydroelectric dams and reservoirs": [
+        "hydroelectric dams", "river flow regimes", "aquatic fragmentation", "reservoir storage capacity",
+        "river blocking", "biological barriers", "catchment management", "World Commission on Dams",
+        "International Hydropower Association", "SDG Target 9.1", "EU Water Framework Directive", "International Commission on Large Dams",
+        "ecosystem drowning", "social disruption", "forced relocation", "sedimentation risks",
+        "river connectivity loss"
+    ],
+
+    "Coastal defense and adaptation infrastructure": [
+        "sea-level rise adaptation", "storm surge barriers", "coastal defense infrastructure", "shoreline hardening",
+        "dike construction", "coastal protection engineering", "hard adaptation solutions", "Sendai Framework",
+        "SROCC report", "Green Climate Fund", "Coastal Cities Network", "EU Adaptation Strategy",
+        "maladaptation", "coastal squeeze", "vulnerability lock-in", "inequitable protection",
+        "grey infrastructure bias"
+    ],
+
+    "Disaster risk management and early warning systems": [
+        "early warning systems", "disaster risk management", "climate hazard monitoring", "contingency planning",
+        "emergency response capacity", "hazard alerts", "risk reduction framework", "UNDRR",
+        "WMO Early Warnings for All", "Global Adaptation Network", "SDG Target 13.3", "Red Cross Climate Centre",
+        "funding gaps", "implementation lag", "last-mile connectivity", "data accessibility",
+        "risk perception gap"
+    ],
+
+    "Integrated spatial and urban planning": [
+        "compact urban form", "job-housing co-location", "urban densification", "spatial planning integration",
+        "mixed-use development", "transit-oriented development", "urban urbanization strategies", "UN-Habitat",
+        "New Urban Agenda", "C40 Cities", "SDG Target 11.3", "Local Governments for Sustainability (ICLEI)",
+        "urban sprawl", "green gentrification", "land competition", "forced displacement",
+        "housing affordability crisis"
+    ],
+
+    "Climate-sensitive infectious and vector-borne diseases": [
+        "vector-borne disease distribution", "zoonotic disease emergence", "epidemiological risk mapping", "climate-driven disease transmission",
+        "pathogen range expansion", "water-borne disease outbreaks", "infectious disease surveillance", "World Health Organization",
+        "Global Health Security Agenda", "SDG Target 3.3", "WHO Infectious Hazard Management", "One Health High-Level Expert Panel",
+        "pandemic risk anxiety", "vaccine equity gap", "biosecurity breach fears", "zoonotic spillover debate",
+        "health surveillance privacy"
+    ],
+
+    "Heat-health action plans and thermal regulation": [
+        "heat-health action plans", "extreme heat mortality", "urban heat island mitigation", "thermal regulation measures",
+        "hyperthermia risk threshold", "cooling center accessibility", "occupational heat stress", "Sendai Framework",
+        "Global Heat Health Information Network", "WMO-WHO Joint Office", "Red Cross Climate Centre", "EU Adaptation Strategy",
+        "energy poverty cooling", "wet-bulb temperature limit", "worker safety violations", "inequitable heat exposure",
+        "preventable summer deaths"
+    ],
+
+    "Mental health and climate-related displacement": [
+        "climate-related displacement", "forced migration patterns", "disaster-induced trauma", "psychosocial health impacts",
+        "environmental migrant status", "planned relocation strategies", "post-disaster mental health", "UNHCR Climate Change",
+        "International Organization for Migration", "Platform on Disaster Displacement", "Nansen Initiative", "SDG Target 10.7",
+        "climate refugee legal-gap", "eco-anxiety", "loss of cultural identity", "forced resettlement conflict",
+        "migration sovereignty debate"
+    ],
+
+    "Pollution impacts on human health (Air, Water, Soil)": [
+        "ambient air quality", "hazardous chemical exposure", "non-point source pollution", "environmental health burden",
+        "soil contamination remediation", "industrial pollutant discharge", "toxic waste exposure", "REACH regulation",
+        "Stockholm Convention", "WHO Air Quality Guidelines", "Minamata Convention", "Basel Convention",
+        "toxic dumping scandal", "polluter pays enforcement", "cancer cluster fears", "corporate chemical lobbying",
+        "regulatory compliance gap"
+    ],
+
+    "Sustainable finance classification and Unified Taxonomy": [
+        "technical screening criteria", "unified classification system", "environmentally sustainable economic activities", "do no significant harm principle",
+        "substantial contribution criteria", "technical robust classification", "taxonomy regulation framework", "EU Taxonomy Regulation",
+        "Platform on Sustainable Finance", "European Supervisory Authorities", "EU Technical Expert Group", "Member State Expert Group on Sustainable Finance",
+        "greenwashing risk", "market fragmentation", "compliance administrative burden", "investment comparative burden",
+        "criteria granularity debate"
+    ],
+
+    "Reform and elimination of environmentally harmful subsidies": [
+        "harmful subsidies elimination", "perverse economic incentives", "fossil fuel subsidies", "fishery overcapacity subsidies",
+        "market distortions removal", "unsustainable practice incentives", "agricultural export subsidies", "Doha Development Round",
+        "World Trade Organization fisheries negotiation", "OECD agricultural support", "Common Fisheries Policy", "Convention on Biological Diversity Target 3",
+        "vested interests opposition", "regressive distributional impacts", "political opposition barriers", "hidden environmental costs",
+        "consumer price volatility"
+    ],
+
+    "Carbon pricing and economic instruments": [
+        "carbon pricing instruments", "emissions trading systems", "internalizing environmental externalities", "polluter pays principle",
+        "carbon tax implementation", "regulatory economic instruments", "cap-and-trade programmes", "EU Emissions Trading System",
+        "UNFCCC mitigation actions", "Greenhouse Gas inventories", "IPCC mitigation pathways", "International Monetary Fund",
+        "carbon leakage risk", "industrial competitiveness loss", "carbon-intensive lock-in", "mitigation cost-effectiveness debate",
+        "socially unjust taxation"
+    ],
+
+    "Corporate sustainability reporting and KPIs": [
+        "non-financial statement disclosure", "sustainability reporting cycle", "alignment with screening criteria", "turnover CapEx OpEx ratios",
+        "sustainability key performance indicators", "sustainability disclosure requirements", "impact assessment reporting", "Sustainable Finance Disclosure Regulation",
+        "Non-Financial Reporting Directive", "EU Eco-management and Audit Scheme", "Global Reporting Initiative", "Task Force on Climate-related Financial Disclosures",
+        "non-financial reporting greenwashing", "data availability constraints", "corporate accountability gap", "proprietary information restrictions",
+        "audit verification burden"
+    ],
+
+    "International climate finance and the $100 billion goal": [
+        "international climate finance", "climate finance flows", "concessional financial assistance", "mobilizing private finance",
+        "adaptation funding gap", "mitigation action transparency", "official development assistance flows", "Green Climate Fund",
+        "UNFCCC financial mechanism", "Addis Ababa Action Agenda", "Global Environment Facility", "Doha Declaration on Financing for Development",
+        "unfulfilled $100 billion goal", "debt sustainability distress", "asymmetric finance access", "donor pledge breach",
+        "climate justice inequities"
     ],
 
     "Structural economic transformation and beyond-GDP metrics": [
-        "beyond gdp indicator frameworks", "genuine progress indicator implementation", "inclusive wealth index tracking", "natural capital national accounting",
-        "decoupling economic growth material footprint", "wellbeing economy policy design", "ecological footprint national tracking", "Beyond GDP EU initiative",
-        "Wellbeing Economy Alliance", "Green Growth Knowledge Partnership", "UN System of Environmental-Economic Accounting", "SDG Target 17.19",
-        "entrenched institutional bias towards GDP", "complexity explaining multi-dimensional indicators", "financial sector resistance alternative metrics", "data collection lag natural capital",
-        "political reluctance adopting growth-limiting caps"
+        "structural economic transformation", "beyond GDP indicators", "inclusive wealth accounting", "natural capital accounting",
+        "system-wide fundamental reorganization", "holistic long-term economics", "decoupling economic growth", "UN Statistical Commission",
+        "IPBES Global Assessment", "SDG Target 17.19", "Rio Declaration on Environment and Development", "Platform on Biodiversity and Ecosystem Services",
+        "economic growth paradigm", "ever-increasing material consumption", "status quo vested interests", "global inequality reduction",
+        "planetary boundaries breach"
     ],
 
-    "Marine protected area networks and enforcement": [
-        "marine protected area network design", "no-take marine reserve enforcement", "satellite tracking illegal fishing mpa", "community-managed marine areas",
-        "vessel monitoring system mpa tracking", "marine corridor biodiversity protection", "mpa ecological connectivity metrics", "MPAtlas",
-        "Global Ocean Alliance", "Blue Nature Alliance", "OceanMind", "SDG Target 14.5",
-        "paper parks lack of active enforcement", "high cost open-ocean vessel patrolling", "conflict with artisanal fishers livelihoods", "climate-driven shifting marine habitat boundaries",
-        "flags of convenience avoiding mpa laws"
+    "Carbon footprint of tourism-related travel": [
+        "tourism carbon footprint", "travel-related emissions", "airborne travel emissions", "seaborne travel pollution",
+        "long-distance transportation emissions", "tourism greenhouse gas intensity", "passenger-kilometer carbon footprint", "UNWTO",
+        "International Civil Aviation Organization", "CORSIA", "International Maritime Organization", "SDG Target 13.2",
+        "flight shaming", "overtourism emissions", "tourism carbon leakage", "unabated travel growth",
+        "tourism energy intensity"
     ],
 
-    "Ecological corridors and landscape connectivity": [
-        "transboundary ecological corridors", "wildlife crossing infrastructure engineering", "landscape connectivity mapping gis", "habitat fragmentation mitigation planning",
-        "buffer zone ecological management", "linear infrastructure wildlife impact guidelines", "migratory pathway protection agreements", "IUCN Connectivity Conservation Specialist Group",
-        "Center for Large Landscape Conservation", "CorridorDesign", "European Ecological Network", "SDG Target 15.5",
-        "private property land fragmentation", "high cost wildlife bridge engineering", "conflicting transport infrastructure masterplans", "weak cross-border land zoning alignment",
-        "climate-forced shifts corridor paths"
+    "Sustainable tourism policies and local products": [
+        "sustainable tourism management", "local product promotion", "biodiversity-friendly tourism", "ecotourism scale",
+        "job-creating tourism", "cultural heritage protection", "tourism monitoring tools", "Global Sustainable Tourism Council",
+        "UNESCO World Heritage Convention", "SDG Target 8.9", "SDG Target 12.b", "10-Year Framework of Programmes",
+        "ecotourism greenwashing", "cultural commodification", "tourism-driven displacement", "livelihood vs conservation",
+        "tourism economic vulnerability"
     ],
 
-    "Table access and traditional knowledge documentation": [
-        "table access", "genetic diversity maintenance", "wild relatives", "traditional knowledge rights",
-        "plant gene banks", "Nagoya Protocol", "CGIAR", "Rome Declaration on Nutrition",
-        "SDG 15.6", "Intergovernmental Oceanographic Commission", "biopiracy", "intellectual property barriers",
-        "fair compensation", "traditional knowledge exclusion", "access barriers"
+    "Invasive alien species introduction via tourism": [
+        "invasive alien species", "introduction pathways", "seaborne species introduction", "airborne travel vectors",
+        "pathway management", "biosecurity risk", "alien species presence", "Convention on Biological Diversity",
+        "IPBES Global Assessment", "IUCN Invasive Species Specialist Group", "International Plant Protection Convention", "SDG Target 15.8",
+        "invasive species hitchhiking", "global connectivity risks", "biosecurity enforcement gaps", "unintended species spread",
+        "native species threat"
+    ],
+
+    "Universal access to safe and affordable drinking water": [
+        "safe drinking water", "affordable drinking water", "potable water access", "point-of-use treatment",
+        "drinking water affordability", "piped water supply", "water source protection", "SDG Target 6.1",
+        "WHO Guidelines for Drinking-water Quality", "UN-Water", "WaterAid", "Safe Water Network",
+        "water privatization", "water affordability crisis", "bottled water lobby", "inequitable water access",
+        "tap water contamination"
+    ],
+
+    "Sanitation, hygiene, and ending open defecation": [
+        "open defecation", "sanitation facilities", "hygiene services", "menstrual hygiene management",
+        "fecal sludge management", "basic sanitation services", "sanitation infrastructure", "SDG Target 6.2",
+        "UNICEF WASH", "WHO/UNICEF Joint Monitoring Programme", "Global Sanitation Graduate School", "World Toilet Day",
+        "sanitation gap", "urban slum neglect", "manual scavenging", "sewage discharge",
+        "sanitation crisis"
+    ],
+
+    "Wastewater treatment and pollutant discharge management": [
+        "wastewater treatment", "urban wastewater", "industrial wastewater", "pollutant discharge",
+        "microplastics removal", "pharmaceutical contaminants", "effluent standards", "Urban Waste Water Treatment Directive",
+        "Minamata Convention", "Stockholm Convention", "REACH regulation", "Basel Convention",
+        "untreated sewage", "emerging contaminants", "toxic dumping scandal", "regulatory non-compliance",
+        "heavy metal contamination"
+    ],
+
+    "Water-use efficiency and scarcity management": [
+        "desalination", "water-use efficiency", "sustainable freshwater withdrawals", "water scarcity management",
+        "aquifer recharge", "groundwater abstraction", "conjunctive water use", "SDG Target 6.4",
+        "UN-Water", "Global Water Partnership", "International Commission on Irrigation and Drainage", "International Water Management Institute",
+        "groundwater over-abstraction", "water-rights conflict", "scarcity pricing", "desalination environmental impact",
+        "allocation inequity"
+    ],
+
+    "Integrated Water Resources Management (IWRM) and transboundary cooperation": [
+        "integrated water resources management", "transboundary water cooperation", "catchment management", "river basin planning",
+        "hydrological cycle analysis", "basin governance", "transboundary aquifers", "UN Water Convention",
+        "Doha Declaration on Financing for Development", "International River Basin Organizations", "SDG Target 6.5", "Helsinki Convention",
+        "upstream-downstream conflicts", "dam diplomacy", "water sovereignty", "treaty breach",
+        "transboundary water tension"
+    ],
+
+    "Waste prevention, reduction, and source separation": [
+        "waste generation reduction", "packaging waste prevention", "systematic source separation", "material flow management",
+        "household waste reduction", "unsustainable consumption patterns", "avoided waste production", "Waste Framework Directive",
+        "SDG Target 12.5", "Circular Economy Action Plan", "Ecodesign Directive", "UN 10-Year Framework of Programmes",
+        "overconsumption habits", "retailer accountability gap", "packaging greenwashing", "disposable product lifestyle",
+        "regulatory compliance burden"
+    ],
+
+    "Recycling and use of secondary raw materials": [
+        "secondary raw materials", "high-quality recycling", "material recovery efficiency", "waste-to-resource transition",
+        "post-consumer recycling", "industrial symbiosis recycling", "circular production cycles", "Circular Economy Action Plan",
+        "WEEE Directive", "EU Ecolabel Regulation", "Waste Framework Directive", "REACH regulation",
+        "downcycling issues", "recycling toxicity risks", "waste export scandal", "unprofitable recycling markets",
+        "recycled content claims"
+    ],
+
+    "Hazardous waste and chemical management": [
+        "hazardous waste management", "toxic waste disposal", "chemical lifecycle safety", "persistent organic pollutants",
+        "hazardous substances substitution", "remediation of contaminated sites", "industrial pollutant discharge", "Stockholm Convention",
+        "Minamata Convention", "REACH regulation", "Basel Convention", "Rotterdam Convention",
+        "toxic dumping scandal", "illegal waste trade", "cancer cluster fears", "chemical lobby influence",
+        "legacy pollution liability"
+    ],
+
+    "Product durability, reparability, and circular design": [
+        "product durability standards", "reparability index", "circular design principles", "product-as-a-service",
+        "design for disassembly", "upgradability and reusability", "construction material reuse", "Ecodesign Directive",
+        "Ellen MacArthur Foundation", "Cradle to Cradle certification", "Energy Performance of Buildings Directive", "EU Building Stock Observatory",
+        "planned obsolescence", "repair barriers", "disposable culture", "circularity greenwashing",
+        "high up-front costs"
+    ],
+
+    "Municipal waste management and per capita environmental impact": [
+        "municipal waste systems", "urban waste collection", "per capita waste impact", "integrated solid waste management",
+        "urban air quality monitoring", "city-level waste infrastructure", "ambient air pollution", "SDG Target 11.6",
+        "C40 Cities", "UN-Habitat Urban Waste", "WHO Air Quality Guidelines", "Local Governments for Sustainability",
+        "incineration vs recycling", "landfill capacity crisis", "urban pollution hotspots", "inequitable waste collection",
+        "waste-to-energy controversy"
+    ],
+
+    "Sustainable wild capture fisheries management": [
+        "maximum sustainable yield", "fish stock restoration", "ecosystem-based fisheries management", "harvesting regulations",
+        "overfishing prevention", "marine ecosystem health", "rebuilding depleted stocks", "FAO Code of Conduct for Responsible Fisheries",
+        "Regional Fisheries Management Organizations", "UNCLOS", "Common Fisheries Policy", "SDG 14.4",
+        "fishing quotas", "industrial overexploitation", "catch limit disputes", "commercial fishing lobby",
+        "seabed trawling impact"
+    ],
+
+    "Marine pollution and plastic debris reduction": [
+        "marine plastic pollution", "marine debris", "macroplastic management", "nutrient pollution",
+        "land-based pollution", "ghost nets", "derelict gear removal", "EU Marine Strategy Framework Directive",
+        "MARPOL Convention", "Stockholm Convention", "SDG 14.1", "Basel Convention",
+        "ocean plastic crisis", "microplastic ingestion", "single-use plastic bans", "toxic dumping scandal",
+        "industry plastic accountability"
+    ],
+
+    "Illegal, Unreported, and Unregulated (IUU) fishing": [
+        "IUU fishing", "unreported catch", "destructive fishing practices", "vessel tracking",
+        "seafood traceability", "maritime enforcement", "illegal trawling", "Agreement on Port State Measures",
+        "INTERPOL Environmental Crime", "WTO fisheries subsidies negotiation", "FAO IUU Guidelines", "Global Record of Fishing Vessels",
+        "fish pirates", "flags of convenience", "stolen fish", "maritime enforcement gap",
+        "untraceable seafood supply"
+    ],
+
+    "Sustainable aquaculture development and environmental footprint": [
+        "sustainable aquaculture", "shellfish aquaculture", "aquaculture environmental footprint", "coastal aquaculture development",
+        "aquaculture certification", "aquatic ecosystem status", "fish farming impact", "Aquaculture Stewardship Council",
+        "Global Aquaculture Alliance", "FAO Aquaculture Guidelines", "EU Common Fisheries Policy", "SDG 14.7",
+        "escaped farmed fish", "antibiotic overuse in aquaculture", "mangrove destruction", "water eutrophication",
+        "aquaculture nutrient runoff"
+    ],
+
+    "Small-scale and artisanal fisheries": [
+        "small-scale fisheries", "artisanal fishers", "marine resource access", "traditional fishing livelihoods",
+        "community-based fisheries management", "indigenous fishing rights", "subsistence fishing", "FAO Voluntary Guidelines for Small-Scale Fisheries",
+        "SDG 14.b", "IPBES Indigenous Knowledge Task Force", "Via Campesina", "Local Coastal Committees",
+        "industrial-vs-artisanal conflict", "access rights displacement", "artisanal marginalization", "large-scale trawling encroachment",
+        "traditional knowledge exclusion"
+    ],
+
+    "Terrestrial and inland freshwater habitat conservation": [
+        "terrestrial ecosystem protection", "inland freshwater conservation", "favourable conservation status", "habitat connectivity",
+        "protected areas network", "nature reserves", "biodiversity hotspots", "IUCN Green List",
+        "World Database on Protected Areas", "Convention on Biological Diversity", "SDG Target 15.1", "Natura 2000",
+        "protected area encroachment", "land tenure insecurity", "conservation-vs-development", "land-use change pressure",
+        "funding gaps for parks"
+    ],
+
+    "Ecological restoration and rewilding": [
+        "ecological restoration", "restoring degraded land", "assisted natural regeneration", "native species replanting",
+        "landscape rewilding", "nature recovery", "ecosystem resilience enhancement", "UN Decade on Ecosystem Restoration",
+        "Bonn Challenge", "Global Partnership on Forest and Landscape Restoration", "Trillion Trees Initiative", "New York Declaration on Forests",
+        "monoculture plantation risk", "land competition for food", "restoration effectiveness", "restoration costs",
+        "natural-vs-managed"
+    ],
+
+    "Invasive alien species prevention and management": [
+        "invasive alien species", "pathway management", "species introduction", "priority species eradication",
+        "biosecurity risks", "alien species presence", "introduction vectors", "IUCN Invasive Species Specialist Group",
+        "International Plant Protection Convention", "Global Invasive Species Database", "SDG Target 15.8", "Batrachochytrium dendrobatidis",
+        "unintended consequences", "trade-vs-biosecurity", "invasive spread", "global connectivity risks",
+        "native species threat"
+    ],
+
+    "Management of genetic resources and benefit sharing": [
+        "genetic resources", "benefit sharing", "equitable access", "genetic diversity maintenance",
+        "wild relatives", "traditional knowledge rights", "plant gene banks", "Nagoya Protocol",
+        "CGIAR", "Rome Declaration on Nutrition", "SDG 15.6", "Intergovernmental Oceanographic Commission",
+        "biopiracy", "intellectual property barriers", "fair compensation", "traditional knowledge exclusion",
+        "access barriers"
     ],
 
     "Poaching and illegal wildlife trafficking": [
