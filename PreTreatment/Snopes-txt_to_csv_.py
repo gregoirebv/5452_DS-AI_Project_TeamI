@@ -13,7 +13,7 @@ df_clean = df[[
     "original_article_text_phase2": "ArticleText"
 })
 
-df_clean.to_csv("PreTreatment\\clean-snopes_checked_v02.csv", index=False)
+df_clean.to_csv("Notebooks\\clean-snopes_checked_v02.csv", index=False)
 
 print(df_clean.head())
 

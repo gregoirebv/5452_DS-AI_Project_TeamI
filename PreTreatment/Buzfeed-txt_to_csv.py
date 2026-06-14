@@ -1,7 +1,7 @@
 import csv
 
 txt_path = "OriginalDataSets\\buzzfeed-v02.txt"
-output_path = "PreTreatment\\clean-buzzfeed-v02.csv"
+output_path = "Notebooks\\clean-buzzfeed-v02.csv"
 
 rows = []
 with open(txt_path, "r", encoding="utf-8") as f:
