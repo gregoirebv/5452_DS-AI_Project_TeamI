@@ -1,8 +1,9 @@
+# This script cleans the CSV file of Snopes articles for treatment purposes. Troubleshooting of encoding issues with the help of ChatGPT4.0
 import pandas as pd
 
 df = pd.read_csv(
     "OriginalDataSets\\snopes_checked_v02.csv",
-    encoding="cp1252" #problem with the UTF-8 encoding
+    encoding="cp1252" #problem with the UTF-8 encoding, resolved with help of ChatGPT4.0
 )
 
 df_clean = df[[

@@ -1,10 +1,11 @@
+# This script converts a tab-separated text file of Buzzfeed articles into a CSV file for treatment purposes
 import csv
 
-txt_path = "OriginalDataSets\\buzzfeed-v02.txt"
+input_path = "OriginalDataSets\\buzzfeed-v02.txt"
 output_path = "Notebooks\\clean-buzzfeed-v02.csv"
 
 rows = []
-with open(txt_path, "r", encoding="utf-8") as f:
+with open(input_path, "r", encoding="utf-8") as f:
     for line in f:
         parts = line.strip().split("\t")
         if len(parts) < 4:
