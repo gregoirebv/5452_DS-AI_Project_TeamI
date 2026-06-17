@@ -15,15 +15,16 @@ Sub3: How can this methodology be be operationalized over time and generalized t
 
 ---
 
-Which datasets / data sources will you work with?
-Misinformation_detection (2018) on GitHub: https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/README.md
-IDD-Resources (2025) on GitHub: https://github.com/mangrue/IDD-Resources
-FakeNewsCorpus (2020) on GitHub: https://github.com/several27/FakeNewsCorpus
+Acknowledgements:
 
-Which tools/algorithms/models/metrics do you plan to employ?
-- Latent Dirichlet Allocation (LDA)
-    Replaced by CorEx (supervised topic modeling)?
-- BERTopic: https://maartengr.github.io/BERTopic/index.html
+Models and relevant documentation used:
+https://maartengr.github.io/BERTopic/
+https://github.com/gregversteeg/CorEx
+
+
+Datasets / data sources:
+Misinformation_detection (2018) on GitHub: https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/README.md
+FakeNewsCorpus (2020) on GitHub: https://github.com/several27/FakeNewsCorpus
 
 ---
 
@@ -44,6 +45,8 @@ Required installations //assuming python 3.14 and pip
 
 - BERTopic
     pip install bertopic
+- CorEx
+    pip install corextopic  
 - Torch
     pip install torch    
 - sentence-transformer
@@ -52,3 +55,5 @@ Required installations //assuming python 3.14 and pip
     pip install pandas numpy scikit-learn seaborn matplotlib 
 - Requests
     pip install requests
+
+---
