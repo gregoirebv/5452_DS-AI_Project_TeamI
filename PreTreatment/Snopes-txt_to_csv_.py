@@ -18,4 +18,4 @@ df_clean.to_csv("../Notebooks/clean-snopes_checked_v02.csv", index=False)
 
 print(df_clean.head())
 
-print("Done!")
+print("Done! Done! Saved to: ../Notebooks/")

@@ -63,4 +63,4 @@ with open(output_file, "w", encoding="utf-8") as f:
             
     f.write("}\n")
 
-print(f"Extraction terminée avec succès ! Le résultat a été sauvegardé dans '{output_file}'.")
+print(f"Done! Saved to: '{output_file}'.")
