@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. Configuration et lecture du fichier CSV
-file_path = "PreTreatment//contentious subjects classification.csv"
+file_path = "../PreTreatment/contentious subjects classification.csv"
 # Utilisation de quotechar et on_bad_lines pour éviter les erreurs de lecture
 df = pd.read_csv(file_path, sep=';', quotechar='"', on_bad_lines='skip')
 
@@ -33,7 +33,7 @@ for index, row in df.iterrows():
 
 # 3. Formatage et écriture du résultat (exactement comme demandé)
 # Nous allons écrire le résultat dans un fichier texte/python pour pouvoir le récupérer facilement
-output_file = "OriginalDataSets\\env_topics.py"
+output_file = "../OriginalDataSets/env_topics.py"
 
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("topics = {\n")

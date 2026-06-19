@@ -1,8 +1,8 @@
 # This script converts a tab-separated text file of Buzzfeed articles into a CSV file for treatment purposes
 import csv
 
-input_path = "OriginalDataSets\\buzzfeed-v02.txt"
-output_path = "Notebooks\\clean-buzzfeed-v02.csv"
+input_path = "../OriginalDataSets/buzzfeed-v02.txt"
+output_path = "../Notebooks/clean-buzzfeed-v02.csv"
 
 rows = []
 with open(input_path, "r", encoding="utf-8") as f:
