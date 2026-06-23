@@ -24,7 +24,11 @@ Acknowledgements:
 
 Models and relevant documentation used:
 
+- CorEx (supervised topic modeling): 
+
 https://maartengr.github.io/BERTopic/
+
+- BERTopic (transformer model):
 
 https://github.com/gregversteeg/CorEx
 
@@ -41,9 +45,9 @@ Workplan/Milestones:
 
 Curate a sub-dataset with environment articles - 29.5.2026 >JM
 
-Sub-dataset from 3 datasets – clean-up >JM 
+Sub-dataset from 2 datasets – clean-up >JM 
 
-Use LDA, BERTopic to map subjects of contention – 5.6.2026 >JM
+Use CorEx, BERTopic to map subjects of contention – 5.6.2026 >JM
 
 Literature on contentious subjects >BG
 
