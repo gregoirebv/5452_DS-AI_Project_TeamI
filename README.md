@@ -59,6 +59,12 @@ Implémentation -> comment intégrer les tags dans le dataset - ?
 
 Generalization for other topics and other contextual flags - 26.6.2026.
 
+Presentation - 26.6.2026.
+
+- storytelling
+
+- pptx
+
 ---
 
 Required installations //assuming python 3.14 and pip
