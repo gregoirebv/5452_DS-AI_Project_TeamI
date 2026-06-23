@@ -39,23 +39,23 @@ FakeNewsCorpus (2020) on GitHub: https://github.com/several27/FakeNewsCorpus
 
 Workplan/Milestones:
 
-Curate a sub-dataset with environment articles - 29.5.2026.
+Curate a sub-dataset with environment articles - 29.5.2026 >JM
 
 Sub-dataset from 3 datasets – clean-up >JM 
 
-Use LDA, BERTopic to map subjects of contention – 5.6.2026
+Use LDA, BERTopic to map subjects of contention – 5.6.2026 >JM
 
 Literature on contentious subjects >BG
 
-Compare to wider statistics to identify bias/blind-spots - 5.6.2026.
+Compare to wider statistics to identify bias/blind-spots - 5.6.2026
 
-Implement the model and map the topic density discrepancies on fact-checkers VS general media - 12.6.2026.
+Implement the model and map the topic density discrepancies on fact-checkers VS general media - 12.6.2026. >JM
 
-Trouver les pourcentages de sujets environnementaux dans les données réelles  google Analytics / source de presse spécialisée >BG
+Find the percentages of environmental sujets in google Analytics data/ international press sources >BG
 
-Create Tags and add them to the dataset - 19.6.2026
+Create Tags and add them to the dataset - 19.6.2026 >JM
 
-Implémentation -> comment intégrer les tags dans le dataset - ?
+Implementation -> how to integrate the tags in the original dataset - JM
 
 Generalization for other topics and other contextual flags - 26.6.2026.
 
