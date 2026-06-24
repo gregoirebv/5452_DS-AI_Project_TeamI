@@ -98,3 +98,5 @@ Required installations //assuming python 3.14 and pip
     pip install requests
 
 ---
+
+For the GitHub link, please refer to: gihub.txt
