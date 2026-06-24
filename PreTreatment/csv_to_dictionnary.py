@@ -1,4 +1,5 @@
 import pandas as pd
+#TODO entrer commentaires et traduire en andglais
 
 # 1. Configuration et lecture du fichier CSV
 file_path = "../PreTreatment/contentious subjects classification.csv"

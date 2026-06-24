@@ -1,4 +1,5 @@
 # This script cleans the CSV file of Snopes articles for treatment purposes. Troubleshooting of encoding issues with the help of ChatGPT4.0
+
 import pandas as pd
 
 df = pd.read_csv(
@@ -15,7 +16,5 @@ df_clean = df[[
 })
 
 df_clean.to_csv("../Notebooks/clean-snopes_checked_v02.csv", index=False)
-
-print(df_clean.head())
 
 print("Done! Done! Saved to: ../Notebooks/")
