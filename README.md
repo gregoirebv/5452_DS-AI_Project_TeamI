@@ -9,7 +9,7 @@ Grégoire Bouvier - h12543344
 Architeture:
 
 
-|--Notebooks (All notebools, the clean datasets will be formed here)
+|--Notebooks (All notebooks, the clean datasets will be formed here)
     
 |   |--Outputs (images and html versions of the notebooks)
 
@@ -109,4 +109,4 @@ Required installations //assuming python 3.14 and pip
 
 ---
 
-For the GitHub link, please refer to: gihub.txt
+For the GitHub link, please refer to: github.txt
