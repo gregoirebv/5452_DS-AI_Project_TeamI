@@ -11,7 +11,7 @@ Architeture:
 
 --Notebooks (All notebools, the clean datasets will be formed here)
 
-|    |--Outputs (images and html versions of the notebooks)
+|            |--Outputs (images and html versions of the notebooks)
 
 |   
 
