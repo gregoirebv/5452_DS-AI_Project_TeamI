@@ -1,2 +1,0 @@
-env:
-  HUGGING_FACE_TOKEN: ${{ secrets.HUGGING_FACE_TOKEN }}
