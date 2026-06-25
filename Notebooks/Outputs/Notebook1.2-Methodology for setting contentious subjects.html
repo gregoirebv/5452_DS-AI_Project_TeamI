@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Notebook0 - Methodology for setting contentious subjects</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook1.2-Methodology for setting contentious subjects</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7802,19 +7802,6 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Guarding-the-Guardians:-Detecting-Bias-and-Underlying-Agendas-in-Environmental-Fact-checking-Using-Machine-Learning-Approaches">Guarding the Guardians: Detecting Bias and Underlying Agendas in Environmental Fact-checking Using Machine Learning Approaches<a class="anchor-link" href="#Guarding-the-Guardians:-Detecting-Bias-and-Underlying-Agendas-in-Environmental-Fact-checking-Using-Machine-Learning-Approaches">¶</a></h1><h3 id="Methodology-for-establishing-Contentious-Subjects-Classification-on-Environment-and-Climate-Change">Methodology for establishing Contentious Subjects Classification on Environment and Climate Change<a class="anchor-link" href="#Methodology-for-establishing-Contentious-Subjects-Classification-on-Environment-and-Climate-Change">¶</a></h3><p>Jean Marc Baquero - h12543815 / Grégoire Bouvier - h12543344</p>
-<hr/>
-<p><strong>Research Question:</strong>
-Using machine learning methods to calculate topic density, how does the comparison of the human-verified datasets used to train the Fake News detector algorithms against a diverse reference corpus reveal systematic selection bias in specific contentious environmental sectors?</p>
-<p><strong>Sub-questions:</strong></p>
-<ul>
-<li><p>Sub1: What are the core contentious environmental sectors and underlying socio-economic interests mapped within online climate discourse, and how can they be categorized for algorithmic bias detection?</p>
-</li>
-<li><p>Sub2: How do advanced embedding and topic modeling techniques (e.g., BERTopic or Transformer representations) compare in quantifying topic density discrepancies between fact-checked data and general media?</p>
-</li>
-<li><p>Sub3: How can this methodology be be operationalized over time and generalized to offer insights in other important news topics, such as health, politics, technology, etc. to practically surive the continuous introduction of new topics/narratives?</p>
-</li>
-</ul>
 <p>This notebook documents the methodology that we used to established the classification on environment and climate change subjects. This will be the basis for our analysis.</p>
 <p>The goal is to classify articles into meaningful climate‑policy themes and track how often these themes appear in global news.</p>
 <p>For that, we need to have a strong and robust classification.</p>
@@ -8122,12 +8109,12 @@ We first defined the "personality" of the NotebookLM to guarantee a good compreh
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"/workspaces/5452_DS-AI_Project_TeamI/PreTreatment/contentious subjects classification.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">';'</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">'python'</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"../PreTreatment/contentious subjects classification.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">';'</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">'python'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8138,7 +8125,7 @@ We first defined the "personality" of the NotebookLM to guarantee a good compreh
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -8218,98 +8205,6 @@ We first defined the "personality" of the NotebookLM to guarantee a good compreh
 <h2 id="Output">Output<a class="anchor-link" href="#Output">¶</a></h2><p>Our output for the keywords is in a CSV file: contentious subjects classification.csv
 To make sure the keywords are exported in the format adapted to the classification algorithm, we used Gemini 3.1 Pro to create a code to transorm the CSV file in the required list for the algorithm.
 This code is csv_to_dictionnary.py</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4dd1afe7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-
-<span class="c1"># 1. Configuring and Reading the CSV File</span>
-<span class="n">file_path</span> <span class="o">=</span> <span class="s2">"/workspaces/5452_DS-AI_Project_TeamI/PreTreatment/contentious subjects classification.csv"</span>
-<span class="c1"># Using `quotechar` and `on_bad_lines` to prevent reading errors</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">';'</span><span class="p">,</span> <span class="n">quotechar</span><span class="o">=</span><span class="s1">'"'</span><span class="p">,</span> <span class="n">on_bad_lines</span><span class="o">=</span><span class="s1">'skip'</span><span class="p">)</span>
-
-<span class="c1"># Intermediate dictionary for storing cleaned data</span>
-<span class="n">topics</span> <span class="o">=</span> <span class="p">{}</span>
-
-<span class="c1"># 2. Data Extraction and Cleaning</span>
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-    <span class="n">sub_cat</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">'(Sub-Category)'</span><span class="p">]</span>
-    <span class="n">nlp_words_raw</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">'Key NLP words targets'</span><span class="p">]</span>
-    
-    <span class="c1"># Rows where the subcategory or keywords are empty are ignored</span>
-    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">sub_cat</span><span class="p">)</span> <span class="ow">or</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">nlp_words_raw</span><span class="p">):</span>
-        <span class="k">continue</span>
-        
-    <span class="n">sub_cat</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sub_cat</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
-    <span class="n">words_str</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">nlp_words_raw</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
-    
-    <span class="c1"># Removing the enclosing quotation marks generated by the CSV format</span>
-    <span class="k">while</span> <span class="n">words_str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'"'</span><span class="p">)</span> <span class="ow">and</span> <span class="n">words_str</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">'"'</span><span class="p">):</span>
-        <span class="n">words_str</span> <span class="o">=</span> <span class="n">words_str</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        
-    <span class="c1"># Separation by comma and individual cleaning of each word</span>
-    <span class="c1"># We remove spaces and quotation marks (single or double) around each word</span>
-    <span class="n">words_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">'"</span><span class="se">\'</span><span class="s1">'</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">words_str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">','</span><span class="p">)]</span>
-    <span class="n">words_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">words_list</span> <span class="k">if</span> <span class="n">w</span><span class="p">]</span> <span class="c1"># Exclusion of potential empty elements</span>
-    
-    <span class="n">topics</span><span class="p">[</span><span class="n">sub_cat</span><span class="p">]</span> <span class="o">=</span> <span class="n">words_list</span>
-
-<span class="c1"># 3. Formatting and writing the result (exactly as requested)</span>
-<span class="c1"># We will write the result to a text/python file so that we can easily retrieve it</span>
-<span class="n">output_file</span> <span class="o">=</span> <span class="s2">"/workspaces/5452_DS-AI_Project_TeamI/PreTreatment/topics_extracted.py"</span>
-
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">"topics = {</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-    
-    <span class="n">items</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">topics</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">sub_cat</span><span class="p">,</span> <span class="n">words</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">items</span><span class="p">):</span>
-        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">'    "</span><span class="si">{</span><span class="n">sub_cat</span><span class="si">}</span><span class="s1">": [</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-        
-        <span class="c1"># Formatting with line breaks (e.g., 4 words per line for readability)</span>
-        <span class="n">chunk_size</span> <span class="o">=</span> <span class="mi">4</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">),</span> <span class="n">chunk_size</span><span class="p">):</span>
-            <span class="n">chunk</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">j</span><span class="p">:</span><span class="n">j</span><span class="o">+</span><span class="n">chunk_size</span><span class="p">]</span>
-            <span class="c1"># Add quotation marks around each word</span>
-            <span class="n">chunk_formatted</span> <span class="o">=</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="sa">f</span><span class="s1">'"</span><span class="si">{</span><span class="n">w</span><span class="si">}</span><span class="s1">"'</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">chunk</span><span class="p">])</span>
-            
-            <span class="c1"># If this is not the last line of words for this sub-category, add a comma</span>
-            <span class="k">if</span> <span class="n">j</span> <span class="o">+</span> <span class="n">chunk_size</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">):</span>
-                <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">'        </span><span class="si">{</span><span class="n">chunk_formatted</span><span class="si">}</span><span class="s1">,</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">'        </span><span class="si">{</span><span class="n">chunk_formatted</span><span class="si">}</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-                
-        <span class="c1"># If this is not the last sub-category in the dictionary, close with a comma and skip a line</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">'    ],</span><span class="se">\n\n</span><span class="s1">'</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">'    ]</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-            
-    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">"}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Extraction completed successfully! The result has been saved in '</span><span class="si">{</span><span class="n">output_file</span><span class="si">}</span><span class="s2">'."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Extraction completed successfully! The result has been saved in '/workspaces/5452_DS-AI_Project_TeamI/PreTreatment/topics_extracted.py'.
-</pre>
-</div>
 </div>
 </div>
 </div>
