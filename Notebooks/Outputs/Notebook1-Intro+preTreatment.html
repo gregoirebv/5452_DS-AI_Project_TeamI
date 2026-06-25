@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Notebook1.2-API_queries</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook1-Intro+preTreatment</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7796,78 +7796,83 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ac48bf9">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7be51ad1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Query-NewsAPI-for-multiple-keywords-and-append-results-(topics-%7C-count-%7C-prevalence)-from-NewsAPI's-indexed-corpus">Query NewsAPI for multiple keywords and append results (topics | count | prevalence) from NewsAPI's indexed corpus<a class="anchor-link" href="#Query-NewsAPI-for-multiple-keywords-and-append-results-(topics-%7C-count-%7C-prevalence)-from-NewsAPI's-indexed-corpus">¶</a></h3><p>As an example, we will try these topics (with significant keywords) :</p>
-<p>[
-"EV",
-"gas",
-"nuclear",
-"renewable",
-"climate"
-]</p>
+<h1 id="Guarding-the-Guardians:-Detecting-Bias-and-Underlying-Agendas-in-Environmental-Fact-checking-Using-Machine-Learning-Approaches">Guarding the Guardians: Detecting Bias and Underlying Agendas in Environmental Fact-checking Using Machine Learning Approaches<a class="anchor-link" href="#Guarding-the-Guardians:-Detecting-Bias-and-Underlying-Agendas-in-Environmental-Fact-checking-Using-Machine-Learning-Approaches">¶</a></h1><h3 id="Guided-BERTopic-+-machine-learning-method">Guided BERTopic + machine learning method<a class="anchor-link" href="#Guided-BERTopic-+-machine-learning-method">¶</a></h3><p>Jean Marc Baquero - h12543815</p>
+<p>Grégoire Bouvier - h12543344</p>
+<p><strong>Research Question:</strong>
+Using machine learning methods to calculate topic density, how does the comparison of the human-verified datasets used to train the Fake News detector algorithms against a diverse reference corpus reveal systematic selection bias in specific contentious environmental sectors?</p>
+<p><strong>Sub-question:</strong></p>
+<p>Sub1: What are the core contentious environmental sectors and underlying socio-economic interests mapped within online climate discourse, and how can they be categorized for algorithmic bias detection?</p>
+<p>Sub2: How do advanced embedding and topic modeling techniques (e.g., BERTopic or Transformer representations) compare in quantifying topic density discrepancies between fact-checked data and general media?</p>
+<p>Sub3: How can this methodology be be operationalized over time and generalized to offer insights in other important news topics, such as health, politics, technology, etc. to practically surive the continuous introduction of new topics/narratives?</p>
+<p>This notebook documents a full pipeline for analyzing climate‑related news using:</p>
+<ul>
+<li><strong>BERTopic</strong> with guided seed topics</li>
+<li><strong>Custom environmental subjects and climate policy taxonomy</strong></li>
+<li><strong>Topic probability heatmaps</strong></li>
+<li><strong>NewsAPI keyword tracking</strong></li>
+</ul>
+<p>The goal is to classify articles into meaningful climate‑policy themes and track how often these themes appear in global news.</p>
+<p><strong>Which datasets / data sources will you work with?</strong>
+Datasets / data sources:</p>
+<p>Misinformation_detection (2018) on GitHub: <a href="https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/README.md">https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/README.md</a></p>
+<p>FakeNewsCorpus (2020) on GitHub: <a href="https://github.com/several27/FakeNewsCorpus">https://github.com/several27/FakeNewsCorpus</a></p>
+<p><strong>Which tools/algorithms/models/metrics do you plan to employ?</strong></p>
+<ul>
+<li>CorEx (supervised topic modeling): <a href="https://github.com/gregversteeg/CorEx">https://github.com/gregversteeg/CorEx</a></li>
+<li>BERTopic: <a href="https://maartengr.github.io/BERTopic/index.html">https://maartengr.github.io/BERTopic/index.html</a></li>
+</ul>
+<p><strong>Workplan/Milestones:</strong></p>
+<p>Curate a sub-dataset with environment articles - 29.5.2026 &gt;JM</p>
+<p>Sub-dataset from 2 datasets – clean-up &gt;JM</p>
+<p>Use CorEx, BERTopic to map subjects of contention – 5.6.2026 &gt;JM</p>
+<p>Literature on contentious subjects &gt;BG</p>
+<p>Compare to wider statistics to identify bias/blind-spots - 5.6.2026 &gt;JM</p>
+<p>Implement the model and map the topic density discrepancies on fact-checkers VS general media - 12.6.2026. &gt;JM</p>
+<p>Find the percentages of environmental sujets in google Analytics data/ international press sources &gt;JM</p>
+<p>Create Tags and add them to the dataset - 19.6.2026 &gt;JM</p>
+<p>Implementation -&gt; how to integrate the tags in the original dataset &gt;JM</p>
+<p>Generalization for other topics and other contextual flags - 26.6.2026. &gt;JM</p>
+<p>Presentation - 26.6.2026.</p>
+<ul>
+<li><p>storytelling</p>
+</li>
+<li><p>pptx</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=434715f9">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08d6e3be">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Pre-treatment-files-(see-/PreTreatment)-we-have-to-run-for-the-project.">Pre treatment files (see /PreTreatment) we have to run for the project.<a class="anchor-link" href="#Pre-treatment-files-(see-/PreTreatment)-we-have-to-run-for-the-project.">¶</a></h3><p>You can run them directly below, or individually in the '/PreTreatment' folder.
+You can also adapt or replace them with your dataset needs if you replaced the files in the '/OriginalDataSets' folder</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=14ff3bda">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">### PreTreatment</span>
 
-<span class="n">API_KEY</span> <span class="o">=</span> <span class="s2">"6ebfd5fbe709457c8aca7a519699ed98"</span>
-
-<span class="n">queries</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"ev"</span><span class="p">:</span>
-        <span class="s1">'("electric vehicle" OR EV)'</span><span class="p">,</span>
-
-    <span class="s2">"gas"</span><span class="p">:</span>
-        <span class="s1">'("gasoline vehicle" OR petrol OR "carbone emission")'</span><span class="p">,</span>
-
-    <span class="s2">"nuclear"</span><span class="p">:</span>
-        <span class="s1">'("nuclear power" OR "nuclear energy")'</span><span class="p">,</span>
-
-    <span class="s2">"renewables"</span><span class="p">:</span>
-        <span class="s1">'("renewable energy" OR "clean energy" OR wind OR solar)'</span><span class="p">,</span>
-
-    <span class="s2">"climate"</span><span class="p">:</span>
-        <span class="s1">'("climate change" OR "global warming")'</span>
-<span class="p">}</span> <span class="c1"># these can be changed for significant keywords and subjects depending the researcher's goals</span>
-
-<span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">topic</span><span class="p">,</span> <span class="n">query</span> <span class="ow">in</span> <span class="n">queries</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-
-    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
-        <span class="s2">"https://newsapi.org/v2/everything"</span><span class="p">,</span>
-        <span class="n">params</span><span class="o">=</span><span class="p">{</span>
-            <span class="s2">"q"</span><span class="p">:</span> <span class="n">query</span><span class="p">,</span>
-            <span class="s2">"language"</span><span class="p">:</span> <span class="s2">"en"</span><span class="p">,</span>
-            <span class="s2">"from"</span> <span class="p">:</span> <span class="s2">"2026-06-15"</span><span class="p">,</span> <span class="c1"># kept under a month back because of the free-tier date restriction</span>
-            <span class="s2">"to"</span>   <span class="p">:</span> <span class="s2">"2026-06-24"</span><span class="p">,</span> <span class="c1"># change to suit the researcher's needs</span>
-            <span class="s2">"sortBy"</span><span class="p">:</span> <span class="s2">"publishedAt"</span><span class="p">,</span>
-            <span class="s2">"pageSize"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
-            <span class="s2">"apiKey"</span><span class="p">:</span> <span class="n">API_KEY</span>
-        <span class="p">}</span>
-    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-
-    <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-        <span class="s2">"topic"</span><span class="p">:</span> <span class="n">topic</span><span class="p">,</span>
-        <span class="s2">"count"</span><span class="p">:</span> <span class="n">r</span><span class="p">[</span><span class="s2">"totalResults"</span><span class="p">]</span>
-    <span class="p">})</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">"share"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"count"</span><span class="p">]</span> <span class="o">/</span> <span class="n">df</span><span class="p">[</span><span class="s2">"count"</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+<span class="o">%</span><span class="k">run</span> ../PreTreatment/Buzfeed-txt_to_csv.py
+<span class="o">%</span><span class="k">run</span> ../PreTreatment/csv_to_dictionnary.py
+<span class="o">%</span><span class="k">run</span> ../PreTreatment/Snopes-txt_to_csv_.py
 </pre></div>
 </div>
 </div>
@@ -7880,173 +7885,10 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>        topic  count     share
-0          ev   1994  0.113631
-1         gas    900  0.051288
-2     nuclear    600  0.034192
-3  renewables   7287  0.415261
-4     climate   6767  0.385628
+<pre>Done! Saved to: ../Notebooks/clean-buzzfeed-v02.csv
+Done! Saved to: '../OriginalDataSets/env_topics.py'.
+Done! Done! Saved to: ../Notebooks/
 </pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8d4a3e99">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="If-needed,-we-can-also-query-for-examples-of-recent-articles-containing-some-of-our-keywords-and-topics.">If needed, we can also query for examples of recent articles containing some of our keywords and topics.<a class="anchor-link" href="#If-needed,-we-can-also-query-for-examples-of-recent-articles-containing-some-of-our-keywords-and-topics.">¶</a></h3><p>We can check the type of articles that come out recently, qualitatively compared to those we have in our database.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1ffb0d4d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
-
-<span class="n">API_KEY</span> <span class="o">=</span> <span class="s2">"6ebfd5fbe709457c8aca7a519699ed98"</span>
-
-<span class="n">base_url</span> <span class="o">=</span> <span class="s2">"https://newsapi.org/v2/everything"</span>
-
-<span class="n">queries</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"renewables"</span><span class="p">:</span>
-        <span class="s1">'("renewable energy" OR "clean energy" OR wind OR solar)'</span>
-<span class="p">}</span>
-
-<span class="n">all_articles</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">topic</span><span class="p">,</span> <span class="n">query</span> <span class="ow">in</span> <span class="n">queries</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-
-    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">"q"</span><span class="p">:</span> <span class="n">query</span><span class="p">,</span>
-        <span class="s2">"language"</span><span class="p">:</span> <span class="s2">"en"</span><span class="p">,</span>
-        <span class="s2">"sortBy"</span><span class="p">:</span> <span class="s2">"publishedAt"</span><span class="p">,</span>
-        <span class="s2">"from"</span><span class="p">:</span> <span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">30</span><span class="p">))</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%Y-%m-</span><span class="si">%d</span><span class="s2">"</span><span class="p">),</span> <span class="c1"># kept under a month back because of the free-tier date restriction</span>
-        <span class="s2">"pageSize"</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="s2">"apiKey"</span><span class="p">:</span> <span class="n">API_KEY</span>
-    <span class="p">}</span>
-
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-    <span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-
-    <span class="k">for</span> <span class="n">article</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"articles"</span><span class="p">,</span> <span class="p">[]):</span>
-        <span class="n">all_articles</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-            <span class="s2">"topic"</span><span class="p">:</span> <span class="n">topic</span><span class="p">,</span>
-            <span class="s2">"title"</span><span class="p">:</span> <span class="n">article</span><span class="p">[</span><span class="s2">"title"</span><span class="p">],</span>
-            <span class="s2">"description"</span><span class="p">:</span> <span class="n">article</span><span class="p">[</span><span class="s2">"description"</span><span class="p">],</span>
-            <span class="s2">"source"</span><span class="p">:</span> <span class="n">article</span><span class="p">[</span><span class="s2">"source"</span><span class="p">][</span><span class="s2">"name"</span><span class="p">],</span>
-            <span class="s2">"publishedAt"</span><span class="p">:</span> <span class="n">article</span><span class="p">[</span><span class="s2">"publishedAt"</span><span class="p">],</span>
-            <span class="s2">"url"</span><span class="p">:</span> <span class="n">article</span><span class="p">[</span><span class="s2">"url"</span><span class="p">]</span>
-        <span class="p">})</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">all_articles</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>(99, 6)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>topic</th>
-<th>title</th>
-<th>description</th>
-<th>source</th>
-<th>publishedAt</th>
-<th>url</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>renewables</td>
-<td>Texas lassoes massive Microsoft datacenter - a...</td>
-<td>The air turns brown when bit barns come to tow...</td>
-<td>Theregister.com</td>
-<td>2026-06-22T20:31:10Z</td>
-<td>https://www.theregister.com/on-prem/2026/06/22...</td>
-</tr>
-<tr>
-<th>1</th>
-<td>renewables</td>
-<td>For decades, we did not know whether Earth-lik...</td>
-<td>For most of the time astronomers have thought ...</td>
-<td>Space Daily</td>
-<td>2026-06-22T20:30:14Z</td>
-<td>https://spacedaily.com/t-for-decades-we-did-no...</td>
-</tr>
-<tr>
-<th>2</th>
-<td>renewables</td>
-<td>Cleanup efforts underway after diesel spill in...</td>
-<td>Nearly three years after a chemical spill in M...</td>
-<td>CBC News</td>
-<td>2026-06-22T20:29:05Z</td>
-<td>https://www.cbc.ca/news/canada/toronto/diesel-...</td>
-</tr>
-<tr>
-<th>3</th>
-<td>renewables</td>
-<td>Music mogul Clive Davis dies at 94</td>
-<td>During his six-decade career, Davis signed and...</td>
-<td>Salon</td>
-<td>2026-06-22T20:23:30Z</td>
-<td>https://www.salon.com/2026/06/22/music-mogul-c...</td>
-</tr>
-<tr>
-<th>4</th>
-<td>renewables</td>
-<td>Daystar Power Reaches 6.8 Megawatts of Install...</td>
-<td>LAGOS, Nigeria, June 22, 2026 /PRNewswire/ -- ...</td>
-<td>PRNewswire</td>
-<td>2026-06-22T20:23:00Z</td>
-<td>https://www.prnewswire.com/news-releases/dayst...</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -8060,10 +7902,8 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1><p>In this notebook, we:</p>
 <ul>
-<li>Tried to query NewsAPI for keyword frequency in recent news articles publications</li>
-<li>Tried to query for examples of such articles</li>
+<li>Did all the pre treatment needed for the rest of the project</li>
 </ul>
-<p>We are now ready to look for keywords and specific topics in our datasets. If they are very prevalent in recent publications and mostly absent of our datasets, we can conclude that the models trained on our datasets will have performance issues generalizing to the new subjects in recent unseen data.</p>
 </div>
 </div>
 </div>
