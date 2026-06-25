@@ -8,19 +8,26 @@ Grégoire Bouvier - h12543344
 ---
 Architeture:
 
+
 --Notebooks (All notebools, the clean datasets will be formed here)
-|    |
-|   Outputs (images and html versions of the notebooks)
+
+|    |--Outputs (images and html versions of the notebooks)
+
+|   
+
 |
+
 --OriginalDataSets (datasets directly pulled from previous projects. See Datasets / data sources section)
+
 |
+
 |
+
 |
+
 -- PreTreatment (python files that are automatically called by Notebook1)
 
-README
 
-github.txt
 ---
 
 Acknowledgements:
