@@ -6,18 +6,21 @@ Jean Marc Baquero - h12543815
 Grégoire Bouvier - h12543344
 
 ---
-Research Question:
+Architeture:
 
-Using machine learning models to calculate topic density, how does the comparison of the human-verified datasets used to train the Fake News detector algorithms against a diverse reference corpus reveal systematic selection bias in specific contentious environmental sectors?
+--Notebooks (All notebools, the clean datasets will be formed here)
+|    |
+|   Outputs (images and html versions of the notebooks)
+|
+--OriginalDataSets (datasets directly pulled from previous projects. See Datasets / data sources section)
+|
+|
+|
+-- PreTreatment (python files that are automatically called by Notebook1)
 
-Sub-questions:
+README
 
-Sub1: What are the core contentious environmental sectors and underlying socio-economic interests mapped within online climate discourse, and how can they be categorized for algorithmic bias detection?
-
-Sub2: How do advanced embedding and topic modeling techniques (e.g., BERTopic or Transformer representations) compare in quantifying topic density discrepancies between fact-checked data and general media?
-
-Sub3: How can this methodology be be operationalized over time and generalized to offer insights in other important news topics, such as health, politics, technology, etc. to practically surive the continuous introduction of new topics/narratives?
-
+github.txt
 ---
 
 Acknowledgements:
